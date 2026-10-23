@@ -35,6 +35,14 @@ def guard(action,t):
  if action=='prepare':assert TARGET-timedelta(hours=20)<=t<TARGET,'Outside preparation window'
  if action=='publish':assert TARGET-timedelta(minutes=60)<=t<=TARGET+timedelta(minutes=30),'Outside publishing window'
 def command(*args):return subprocess.check_output([sys.executable,str(B/'free-host.py'),*args],text=True).strip()
+def transfer_ready(url):
+ for attempt in range(18):
+  try:
+   with urllib.request.urlopen(urllib.request.Request(url,method='HEAD'),timeout=10) as r:
+    if r.status==200 and int(r.headers.get('Content-Length','0'))>1000:return
+  except Exception:pass
+  time.sleep(5)
+ raise RuntimeError('Temporary cloud transfer URL unavailable; no Meta creation attempted')
 def ready(cid):
  for _ in range(40):
   s=meta(cid+'?fields=status_code')['status_code']
@@ -61,7 +69,7 @@ def main():
     name=v['style'];r=state.get(name,{})
     if not r.get('container'):
      assert not r.get('create_attempted'),'Unknown creation outcome: reconcile before retry'
-     u=command('stage',str(B/v['file']));print('::add-mask::'+u,flush=True)
+     u=command('stage',str(B/v['file']));print('::add-mask::'+u,flush=True);transfer_ready(u)
      r={'create_attempted':True,'trial_params':{'graduation_strategy':'MANUAL'}};state[name]=r;save(state)
      result=meta(ACCOUNT+'/media',{'media_type':'REELS','video_url':u,'caption':v['caption'],'share_to_feed':False,'trial_params':r['trial_params']})
      r['container']=result['id'];save(state)
