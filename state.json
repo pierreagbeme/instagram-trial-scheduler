@@ -12,6 +12,7 @@
     "trial_params": {
       "graduation_strategy": "MANUAL"
     },
-    "container": "18638347051028742"
+    "container": "18638347051028742",
+    "ready": true
   }
 }
