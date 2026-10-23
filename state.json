@@ -3,6 +3,7 @@
     "create_attempted": true,
     "trial_params": {
       "graduation_strategy": "MANUAL"
-    }
+    },
+    "container": "18638346856028742"
   }
 }
