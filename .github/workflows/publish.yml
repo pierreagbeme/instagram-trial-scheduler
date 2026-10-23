@@ -1,0 +1,34 @@
+name: Scheduled MANUAL Trial Reels
+on:
+  schedule:
+    - cron: '27 7 24 10 *'
+  workflow_dispatch:
+    inputs:
+      action:
+        type: choice
+        options: [validate, prepare, publish]
+        default: validate
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: trial-batch-2026-10-24
+  cancel-in-progress: false
+jobs:
+  batch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 65
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Install runtime dependencies
+        run: |
+          python3 -m pip install cryptography==49.0.0
+          curl -fsSL https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -o /tmp/cloudflared
+          sudo install -m 755 /tmp/cloudflared /usr/local/bin/cloudflared
+      - name: Validate, prepare, or publish approved batch
+        env:
+          GH_TOKEN: ${{ github.token }}
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+          PACKAGE_KEY: ${{ secrets.PACKAGE_KEY }}
+          REQUESTED_ACTION: ${{ inputs.action || 'publish' }}
+        run: python3 cloud.py "$REQUESTED_ACTION"
