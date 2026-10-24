@@ -41,6 +41,8 @@
       "graduation_strategy": "MANUAL"
     },
     "container": "18638347261028742",
-    "ready": true
+    "ready": true,
+    "publish_attempted": true,
+    "authorization": "Explicit user request Ausspielen on 2026-10-24"
   }
 }
