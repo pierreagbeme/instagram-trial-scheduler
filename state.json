@@ -28,7 +28,12 @@
     "authorization": "Explicit user request Ausspielen on 2026-10-24",
     "published": true,
     "media_id": "18112407245171548",
-    "published_at": "2026-10-24T08:53:41.291913+00:00"
+    "published_at": "2026-10-24T08:53:41.291913+00:00",
+    "media": {
+      "id": "18112407245171548",
+      "permalink": "https://www.instagram.com/reel/De2NlJSjh-K/",
+      "timestamp": "2026-10-24T08:53:28+0000"
+    }
   },
   "editorial-story": {
     "create_attempted": true,
