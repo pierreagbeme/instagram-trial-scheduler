@@ -25,7 +25,10 @@
     "container": "18638347051028742",
     "ready": true,
     "publish_attempted": true,
-    "authorization": "Explicit user request Ausspielen on 2026-10-24"
+    "authorization": "Explicit user request Ausspielen on 2026-10-24",
+    "published": true,
+    "media_id": "18112407245171548",
+    "published_at": "2026-10-24T08:53:41.291913+00:00"
   },
   "editorial-story": {
     "create_attempted": true,
