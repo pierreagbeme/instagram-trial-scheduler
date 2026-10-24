@@ -10,7 +10,12 @@
     "authorization": "Explicit user request Ausspielen on 2026-10-24",
     "published": true,
     "media_id": "18014579921972747",
-    "published_at": "2026-10-24T08:53:18.191420+00:00"
+    "published_at": "2026-10-24T08:53:18.191420+00:00",
+    "media": {
+      "id": "18014579921972747",
+      "permalink": "https://www.instagram.com/reel/De2Ng-wgHj2/",
+      "timestamp": "2026-10-24T08:53:06+0000"
+    }
   },
   "minimal-word-focus": {
     "create_attempted": true,
