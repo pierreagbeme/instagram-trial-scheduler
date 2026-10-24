@@ -46,6 +46,11 @@
     "authorization": "Explicit user request Ausspielen on 2026-10-24",
     "published": true,
     "media_id": "18104245103566676",
-    "published_at": "2026-10-24T08:54:05.137847+00:00"
+    "published_at": "2026-10-24T08:54:05.137847+00:00",
+    "media": {
+      "id": "18104245103566676",
+      "permalink": "https://www.instagram.com/reel/De2NpsLglpP/",
+      "timestamp": "2026-10-24T08:53:51+0000"
+    }
   }
 }
