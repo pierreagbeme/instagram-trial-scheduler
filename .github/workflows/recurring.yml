@@ -1,0 +1,28 @@
+name: Daily 10 and 18 MANUAL Trial Reels
+on:
+  schedule:
+    - cron: '17 9,17 * * *'
+      timezone: Europe/Berlin
+  workflow_dispatch:
+    inputs:
+      action:
+        type: choice
+        options: [validate, publish]
+        default: validate
+permissions:
+  contents: write
+concurrency:
+  group: recurring-instagram-trials
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 65
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Run schedule and duplicate-protected publisher
+        env:
+          GH_TOKEN: ${{ github.token }}
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+          REQUESTED_ACTION: ${{ inputs.action || 'publish' }}
+        run: python3 recurring.py "$REQUESTED_ACTION"
