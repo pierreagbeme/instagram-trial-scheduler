@@ -48,24 +48,24 @@
           "sha256": "08a983aeb208f5b93224cdf5641dfa77d3e737e3dd15a1cc45743ba836816d71",
           "review_passed": true,
           "caption": "Habituation: Die Uhr ist noch da.\n\nManches ist noch da, obwohl du es kaum noch bemerkst. Welcher Reiz fällt dir ein?\n\n#EinWortReicher #Habituation #Wortschatz",
-          "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-habituation-20261028-1800/18088777082452396-quiet-clock.mp4"
+          "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-habituation-20261028-1800-revision-1e639d407c/18088777082452396-quiet-clock.mp4"
         },
         {
           "id": "18088777082452396-sleep-by-tracks",
           "sha256": "ffd9ded24a2ff5deff24835e35a58d3b14704834ce350cbad6507b90f373c5c8",
           "review_passed": true,
           "caption": "Habituation: Zuhause schlafen, als Gast aufwachen.\n\nManches ist noch da, obwohl du es kaum noch bemerkst. Welcher Reiz fällt dir ein?\n\n#EinWortReicher #Habituation #Wortschatz",
-          "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-habituation-20261028-1800/18088777082452396-sleep-by-tracks.mp4"
+          "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-habituation-20261028-1800-revision-1e639d407c/18088777082452396-sleep-by-tracks.mp4"
         },
         {
-          "id": "18088777082452396-space-for-new",
-          "sha256": "881a5a77d0b01f03bbec69773ead1bbb32588abda066d07368f231e1d280ed27",
+          "id": "18088777082452396-space-for-new-full",
+          "sha256": "6f0564cf00db3c4376079a16ac1d8ecf62b155fdcdc152f33d2e8238b93c4be9",
           "review_passed": true,
           "caption": "Habituation: Platz für Neues.\n\nManches ist noch da, obwohl du es kaum noch bemerkst. Welcher Reiz fällt dir ein?\n\n#EinWortReicher #Habituation #Wortschatz",
-          "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-habituation-20261028-1800/18088777082452396-space-for-new.mp4"
+          "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-habituation-20261028-1800-revision-1e639d407c/18088777082452396-space-for-new-full.mp4"
         }
       ],
-      "release_tag": "batch-habituation-20261028-1800"
+      "release_tag": "batch-habituation-20261028-1800-revision-1e639d407c"
     }
   ]
 }
