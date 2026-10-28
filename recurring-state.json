@@ -25,7 +25,8 @@
             "graduation_strategy": "MANUAL"
           },
           "container": "18640089685028742",
-          "remote_status": "FINISHED"
+          "remote_status": "FINISHED",
+          "publish_attempted": true
         },
         "18126520330864388-act-with-doubt": {
           "create_attempted": true,
