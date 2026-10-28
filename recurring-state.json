@@ -12,7 +12,12 @@
           "remote_status": "FINISHED",
           "publish_attempted": true,
           "published": true,
-          "media_id": "18107117387312893"
+          "media_id": "18107117387312893",
+          "media": {
+            "id": "18107117387312893",
+            "permalink": "https://www.instagram.com/reel/DfCJYqvDE1e/",
+            "timestamp": "2026-10-28T09:49:39+0000"
+          }
         },
         "18126520330864388-try-another-way": {
           "create_attempted": true,
