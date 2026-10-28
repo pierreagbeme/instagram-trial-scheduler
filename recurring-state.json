@@ -52,7 +52,9 @@
           }
         }
       },
-      "authorized_catch_up_started_at": "2026-10-28T09:48:15.550258+00:00"
+      "authorized_catch_up_started_at": "2026-10-28T09:48:15.550258+00:00",
+      "status": "published_manual_trial",
+      "verified_at": "2026-10-28T09:50:12.323773+00:00"
     }
   }
 }
