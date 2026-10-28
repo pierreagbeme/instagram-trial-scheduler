@@ -9,7 +9,7 @@
             "graduation_strategy": "MANUAL"
           },
           "container": "18640089652028742",
-          "remote_status": "IN_PROGRESS"
+          "remote_status": "FINISHED"
         },
         "18126520330864388-try-another-way": {
           "create_attempted": true,
@@ -17,7 +17,7 @@
             "graduation_strategy": "MANUAL"
           },
           "container": "18640089685028742",
-          "remote_status": "IN_PROGRESS"
+          "remote_status": "FINISHED"
         },
         "18126520330864388-act-with-doubt": {
           "create_attempted": true,
@@ -25,7 +25,7 @@
             "graduation_strategy": "MANUAL"
           },
           "container": "18640089790028742",
-          "remote_status": "IN_PROGRESS"
+          "remote_status": "FINISHED"
         }
       },
       "authorized_catch_up_started_at": "2026-10-28T09:48:15.550258+00:00"
