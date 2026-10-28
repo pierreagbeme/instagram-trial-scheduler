@@ -10,7 +10,9 @@
           },
           "container": "18640089652028742",
           "remote_status": "FINISHED",
-          "publish_attempted": true
+          "publish_attempted": true,
+          "published": true,
+          "media_id": "18107117387312893"
         },
         "18126520330864388-try-another-way": {
           "create_attempted": true,
