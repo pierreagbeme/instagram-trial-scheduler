@@ -1,1 +1,9 @@
-{"slots":{}}
+{
+  "slots": {
+    "2026-10-28T10:00:00+01:00": {
+      "batch_id": "selbstwirksamkeit-20261028-1000",
+      "variants": {},
+      "authorized_catch_up_started_at": "2026-10-28T09:48:15.550258+00:00"
+    }
+  }
+}
