@@ -42,7 +42,9 @@
           },
           "container": "18640089790028742",
           "remote_status": "FINISHED",
-          "publish_attempted": true
+          "publish_attempted": true,
+          "published": true,
+          "media_id": "18115524308596005"
         }
       },
       "authorized_catch_up_started_at": "2026-10-28T09:48:15.550258+00:00"
