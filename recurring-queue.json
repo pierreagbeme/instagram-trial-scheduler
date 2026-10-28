@@ -95,6 +95,35 @@
         }
       ],
       "release_tag": "batch-sagazitaet-20261029-1000"
+    },
+    {
+      "id": "akrasia-20261029-1800",
+      "publish_at": "2026-10-29T18:00:00+01:00",
+      "approved": true,
+      "variants": [
+        {
+          "id": "17871000390636633-one-more-episode",
+          "sha256": "56c5455100682e335a998776b8f8c3ff2bf9f651e64806a5619b92a31da01967",
+          "review_passed": true,
+          "caption": "Akrasia: Nur noch eine Folge.\n\nDu weißt, was vernünftig wäre – und machst trotzdem etwas anderes. Welches Beispiel kennst du?\n\n#Akrasia #EinWortReicher #Wortschatz",
+          "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-akrasia-20261029-1800/17871000390636633-one-more-episode.mp4"
+        },
+        {
+          "id": "17871000390636633-buy-or-save",
+          "sha256": "02f2b28a7e7db801257db33264436462674bba510738fc035fb38ee296a899eb",
+          "review_passed": true,
+          "caption": "Akrasia: Sparen wollen, trotzdem kaufen.\n\nDu weißt, was vernünftig wäre – und machst trotzdem etwas anderes. Welches Beispiel kennst du?\n\n#Akrasia #EinWortReicher #Wortschatz",
+          "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-akrasia-20261029-1800/17871000390636633-buy-or-save.mp4"
+        },
+        {
+          "id": "17871000390636633-knowing-versus-doing",
+          "sha256": "c4a148b6c5762dd718253c768cb06a5772825441523bd600436209fb2fb5a634",
+          "review_passed": true,
+          "caption": "Akrasia: Wissen ist nicht Handeln.\n\nDu weißt, was vernünftig wäre – und machst trotzdem etwas anderes. Welches Beispiel kennst du?\n\n#Akrasia #EinWortReicher #Wortschatz",
+          "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-akrasia-20261029-1800/17871000390636633-knowing-versus-doing.mp4"
+        }
+      ],
+      "release_tag": "batch-akrasia-20261029-1800"
     }
   ]
 }
