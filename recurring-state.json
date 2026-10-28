@@ -28,7 +28,12 @@
           "remote_status": "FINISHED",
           "publish_attempted": true,
           "published": true,
-          "media_id": "17864883912692357"
+          "media_id": "17864883912692357",
+          "media": {
+            "id": "17864883912692357",
+            "permalink": "https://www.instagram.com/reel/DfCJZTQD0jm/",
+            "timestamp": "2026-10-28T09:49:51+0000"
+          }
         },
         "18126520330864388-act-with-doubt": {
           "create_attempted": true,
