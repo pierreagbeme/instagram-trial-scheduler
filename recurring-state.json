@@ -44,7 +44,12 @@
           "remote_status": "FINISHED",
           "publish_attempted": true,
           "published": true,
-          "media_id": "18115524308596005"
+          "media_id": "18115524308596005",
+          "media": {
+            "id": "18115524308596005",
+            "permalink": "https://www.instagram.com/reel/DfCJZ4DCQyH/",
+            "timestamp": "2026-10-28T09:50:02+0000"
+          }
         }
       },
       "authorized_catch_up_started_at": "2026-10-28T09:48:15.550258+00:00"
