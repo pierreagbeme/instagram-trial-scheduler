@@ -66,6 +66,35 @@
         }
       ],
       "release_tag": "batch-habituation-20261028-1800-revision-1e639d407c"
+    },
+    {
+      "id": "sagazitaet-20261029-1000",
+      "publish_at": "2026-10-29T10:00:00+01:00",
+      "approved": true,
+      "variants": [
+        {
+          "id": "18135596059620127-one-good-question",
+          "sha256": "f35bff0a331781f9c83ecd2ec93e97e0d139e81a95d22feb75aa9277c8dc138b",
+          "review_passed": true,
+          "caption": "Sagazität: Eine Frage öffnet das Gespräch.\n\nKennst du jemanden, der mit einer Frage das ganze Gespräch verändert?\n\n#Sagazität #EinWortReicher #Wortschatz",
+          "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-sagazitaet-20261029-1000/18135596059620127-one-good-question.mp4"
+        },
+        {
+          "id": "18135596059620127-find-the-hangup",
+          "sha256": "2298783318be7eaeedf62c6c4938a684109214d8517c03f8523ada4835ef7987",
+          "review_passed": true,
+          "caption": "Sagazität: Den Denkfehler finden.\n\nKennst du jemanden, der mit einer Frage das ganze Gespräch verändert?\n\n#Sagazität #EinWortReicher #Wortschatz",
+          "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-sagazitaet-20261029-1000/18135596059620127-find-the-hangup.mp4"
+        },
+        {
+          "id": "18135596059620127-different-goals-film",
+          "sha256": "b7457fbc234d13554f98bd2a43c315c5044771632b3d7c1cac270039ade273a9",
+          "review_passed": true,
+          "caption": "Sagazität: Dasselbe Gespräch, zwei Ziele.\n\nKennst du jemanden, der mit einer Frage das ganze Gespräch verändert?\n\n#Sagazität #EinWortReicher #Wortschatz",
+          "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-sagazitaet-20261029-1000/18135596059620127-different-goals-film.mp4"
+        }
+      ],
+      "release_tag": "batch-sagazitaet-20261029-1000"
     }
   ]
 }
