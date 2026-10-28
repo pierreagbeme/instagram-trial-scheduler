@@ -21,3 +21,9 @@ Schedule configured with an empty queue; previously published batches are intent
 
 ## Recovery 2026-10-28
 The morning schedule event never produced a run by10:46 Berlin, despite successful manual validation. Validation proves account/queue policy, not scheduled delivery. Schedule now has repeated triggers09:07–09:57 and10:07/10:17, with equivalent evening triggers, all Europe/Berlin. Concurrency and per-video journal prevent duplicates. GitHub scheduling remains best effort. Explicit workflow_dispatch catch-up requires an exact batch ID and only accepts a past slot on the same Berlin date, with a fresh20-minute deadline; use only after user authorizes late publication. User authorized the28Oct10:00 Selbstwirksamkeit batch to be caught up now.
+
+## Nutzeränderung 28.10.2026
+Pro neuer Dreier-Batch genau eine Version mit bildfüllend animiertem erklärendem Hauptteil, Originalstimme und synchronen Untertiteln. Der natürliche Original-Hook bleibt Sprecherbild. Die 35%-Grenze gilt nur für die anderen zwei Versionen mit sichtbarem Sprecher und zwei frühen Erkläranimationen. Alle drei weiterhin eigenständig schneiden und gestalten.
+
+## Replacing an untouched future batch
+When a new explicit creative preference affects a queued but unstarted batch, enqueue.py MANIFEST --replace-unstarted may replace exactly that batch ID and slot. Requires at least60min lead and no state entry for the slot. Checks before and after upload, checks old queue record unchanged, uploads a distinct immutable release revision; never overwrites transfer bytes or published records. Unchanged reviewed variants from that same batch may be retained. Recheck remote state/queue after success.
