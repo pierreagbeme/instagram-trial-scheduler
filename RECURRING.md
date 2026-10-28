@@ -18,3 +18,6 @@ recurring.py validates account, manual trial policy, batch size, unique assets, 
 
 ## Current initial state
 Schedule configured with an empty queue; previously published batches are intentionally excluded. First production run is28.10.2026 06:00 Berlin, targeting28.10.2026 10:00 and optionally18:00. No new batch is promised until production/review finishes. New uploads are never created merely by running validate.
+
+## Recovery 2026-10-28
+The morning schedule event never produced a run by10:46 Berlin, despite successful manual validation. Validation proves account/queue policy, not scheduled delivery. Schedule now has repeated triggers09:07–09:57 and10:07/10:17, with equivalent evening triggers, all Europe/Berlin. Concurrency and per-video journal prevent duplicates. GitHub scheduling remains best effort. Explicit workflow_dispatch catch-up requires an exact batch ID and only accepts a past slot on the same Berlin date, with a fresh20-minute deadline; use only after user authorizes late publication. User authorized the28Oct10:00 Selbstwirksamkeit batch to be caught up now.

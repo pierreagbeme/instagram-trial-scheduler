@@ -44,11 +44,20 @@ def summary(text):
  print(text,flush=True)
  if os.environ.get('GITHUB_STEP_SUMMARY'):
   with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as f:f.write(text+'\n\n')
-def run(action):
+def run(action,catch_up_batch=""):
+ started=now()
  q,_=readfile('recurring-queue.json');validate(q)
  me=meta('me?fields=user_id,username');assert me['user_id']==ACCOUNT and me['username']=='pierreagbeme'
  if action=='validate':summary('Validated account, queue schema and MANUAL trial policy. Queued batches: '+str(len(q['batches']))+'. No publishing performed.');return
- assert action=='publish';target=slot_for(now())
+ assert action in ('publish','catch-up')
+ catchup=action=='catch-up'
+ if catchup:
+  assert catch_up_batch,'Explicit batch ID required'
+  chosen=next((b for b in q['batches'] if b['id']==catch_up_batch),None)
+  assert chosen,'Unknown batch'
+  target=datetime.fromisoformat(chosen['publish_at'])
+  assert target<=started and target.astimezone(TZ).date()==started.astimezone(TZ).date(),'Catch-up limited to a missed slot today'
+ else:target=slot_for(now())
  if target is None:summary('Outside 10:00/18:00 Berlin preparation/publication window. No publishing.');return
  key=target.isoformat();state,_=readfile('recurring-state.json');batch=next((b for b in q['batches'] if datetime.fromisoformat(b['publish_at'])==target),None)
  if not batch:
@@ -57,6 +66,9 @@ def run(action):
  if state.get('slots',{}).get(key,{}).get('status')=='missing_reviewed_batch':state['slots'].pop(key)
  record=state.setdefault('slots',{}).setdefault(key,{'batch_id':batch['id'],'variants':{}})
  assert record.get('batch_id')==batch['id'],'Slot already reserved by another batch'
+ if record.get('status')=='published_manual_trial':summary('Already published; no duplicate: '+batch['id']);return
+ window_end=started+timedelta(minutes=20) if catchup else target+timedelta(minutes=20)
+ if catchup:record['authorized_catch_up_started_at']=started.isoformat();save(state)
  for v in batch['variants']:
   r=record['variants'].setdefault(v['id'],{})
   if r.get('published'):continue
@@ -70,7 +82,7 @@ def run(action):
    r.update(create_attempted=True,trial_params=POLICY);save(state)
    result=meta(ACCOUNT+'/media',{'media_type':'REELS','video_url':v['video_url'],'caption':v['caption'],'share_to_feed':False,'trial_params':POLICY})
    r['container']=result['id'];save(state)
- deadline=min(now()+timedelta(minutes=15),target+timedelta(minutes=20))
+ deadline=min(now()+timedelta(minutes=15),window_end)
  while True:
   ready=True
   for r in record['variants'].values():
@@ -87,7 +99,7 @@ def run(action):
   r=record['variants'][v['id']]
   if r.get('published'):continue
   assert not r.get('publish_attempted'),'Unknown publication result; reconcile before retry'
-  assert target<=now()<=target+timedelta(minutes=20),'Publication window closed'
+  assert target<=now()<=window_end,'Publication window closed'
   assert r['trial_params']==POLICY
   r['publish_attempted']=True;save(state)
   result=meta(ACCOUNT+'/media_publish',{'creation_id':r['container']})
@@ -97,4 +109,4 @@ def run(action):
  for r in record['variants'].values():assert meta(r['container']+'?fields=status_code')['status_code']=='PUBLISHED'
  record['status']='published_manual_trial';record['verified_at']=now().isoformat();save(state)
  summary('Batch verified: three MANUAL Trial Reels. Automatic graduation disabled.')
-if __name__=='__main__':run(sys.argv[1] if len(sys.argv)>1 else 'validate')
+if __name__=='__main__':run(sys.argv[1] if len(sys.argv)>1 else 'validate',os.environ.get('CATCH_UP_BATCH',''))

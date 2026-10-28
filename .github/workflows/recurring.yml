@@ -1,14 +1,20 @@
 name: Daily 10 and 18 MANUAL Trial Reels
 on:
   schedule:
-    - cron: '17 9,17 * * *'
+    - cron: '7,17,27,37,47,57 9,17 * * *'
+      timezone: Europe/Berlin
+    - cron: '7,17 10,18 * * *'
       timezone: Europe/Berlin
   workflow_dispatch:
     inputs:
       action:
         type: choice
-        options: [validate, publish]
+        options: [validate, publish, catch-up]
         default: validate
+      batch_id:
+        description: Exact batch ID, only for explicitly authorized catch-up
+        type: string
+        default: ""
 permissions:
   contents: write
 concurrency:
@@ -24,5 +30,6 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           META_TOKEN: ${{ secrets.META_TOKEN }}
+          CATCH_UP_BATCH: ${{ inputs.batch_id || '' }}
           REQUESTED_ACTION: ${{ inputs.action || 'publish' }}
         run: python3 recurring.py "$REQUESTED_ACTION"

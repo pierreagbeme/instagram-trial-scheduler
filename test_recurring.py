@@ -10,7 +10,6 @@ class Guards(unittest.TestCase):
  def test_empty_queue_safe(self):r.validate({'timezone':'Europe/Berlin','slots':['10:00','18:00'],'batch_size':3,'trial_params':r.POLICY,'batches':[]})
  def test_regular_or_auto_rejected(self):
   with self.assertRaises(AssertionError):r.validate({'timezone':'Europe/Berlin','slots':['10:00','18:00'],'batch_size':3,'trial_params':{'graduation_strategy':'SS_PERFORMANCE'},'batches':[]})
-if __name__=='__main__':unittest.main()
 
 from unittest.mock import patch
 import io
@@ -39,3 +38,17 @@ class PublishingGuards(unittest.TestCase):
   with patch.object(r,'now',return_value=datetime.fromisoformat('2026-10-28T09:00:00+00:00')),patch.object(r,'readfile',side_effect=lambda name:(q if name=='recurring-queue.json' else s,'sha')),patch.object(r,'save'),patch.object(r,'meta',side_effect=m):
    with self.assertRaisesRegex(AssertionError,'Unknown publication'):r.run('publish')
   self.assertEqual(c,[])
+
+class CatchUpGuards(PublishingGuards):
+ def test_authorized_exact_batch(self):
+  q,s,c,p,m,raw=self.setup_case()
+  with patch.object(r,'now',return_value=datetime.fromisoformat('2026-10-28T09:50:00+00:00')),patch.object(r,'readfile',side_effect=lambda name:(q if name=='recurring-queue.json' else s,'sha')),patch.object(r,'save'),patch.object(r,'meta',side_effect=m),patch.object(r.urllib.request,'urlopen',side_effect=lambda url,**kw:io.BytesIO(raw[int(url[-1])])):
+   r.run('catch-up','test-batch');r.run('catch-up','test-batch')
+  self.assertEqual(len([x for x in c if x[0].endswith('/media_publish')]),3)
+ def test_future_and_unspecified_batch_rejected(self):
+  q,s,c,p,m,raw=self.setup_case()
+  with patch.object(r,'now',return_value=datetime.fromisoformat('2026-10-28T08:00:00+00:00')),patch.object(r,'readfile',return_value=(q,'sha')),patch.object(r,'meta',side_effect=m):
+   for key in ['', 'unknown', 'test-batch']:
+    with self.assertRaises(AssertionError):r.run('catch-up',key)
+  self.assertEqual(c,[])
+if __name__=='__main__':unittest.main()
