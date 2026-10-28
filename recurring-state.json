@@ -14,7 +14,8 @@
           "create_attempted": true,
           "trial_params": {
             "graduation_strategy": "MANUAL"
-          }
+          },
+          "container": "18640089685028742"
         }
       },
       "authorized_catch_up_started_at": "2026-10-28T09:48:15.550258+00:00"
