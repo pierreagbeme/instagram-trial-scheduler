@@ -9,7 +9,8 @@
             "graduation_strategy": "MANUAL"
           },
           "container": "18640089652028742",
-          "remote_status": "FINISHED"
+          "remote_status": "FINISHED",
+          "publish_attempted": true
         },
         "18126520330864388-try-another-way": {
           "create_attempted": true,
