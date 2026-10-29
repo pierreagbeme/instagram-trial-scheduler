@@ -55,6 +55,86 @@
       "authorized_catch_up_started_at": "2026-10-28T09:48:15.550258+00:00",
       "status": "published_manual_trial",
       "verified_at": "2026-10-28T09:50:12.323773+00:00"
+    },
+    "2026-10-29T10:00:00+01:00": {
+      "batch_id": "sagazitaet-20261029-1000",
+      "status": "published_manual_trial",
+      "execution": "local_user_requested",
+      "verified_at": "2026-10-29T09:38:30.232400+00:00",
+      "variants": {
+        "18135596059620127-one-good-question": {
+          "create_attempted": true,
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-sagazitaet-20261029-1000/18135596059620127-one-good-question.mp4",
+            "caption": "Sagazit\u00e4t: Eine Frage \u00f6ffnet das Gespr\u00e4ch.\n\nKennst du jemanden, der mit einer Frage das ganze Gespr\u00e4ch ver\u00e4ndert?\n\n#Sagazit\u00e4t #EinWortReicher #Wortschatz",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "container": "18640461733028742",
+          "publish_attempted": true,
+          "media_id": "18467894002185965",
+          "published": true,
+          "media": {
+            "id": "18467894002185965",
+            "permalink": "https://www.instagram.com/reel/DfEsvMlgb4U/",
+            "timestamp": "2026-10-29T09:37:33+0000"
+          },
+          "trial_params": {
+            "graduation_strategy": "MANUAL"
+          }
+        },
+        "18135596059620127-find-the-hangup": {
+          "create_attempted": true,
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-sagazitaet-20261029-1000/18135596059620127-find-the-hangup.mp4",
+            "caption": "Sagazit\u00e4t: Den Denkfehler finden.\n\nKennst du jemanden, der mit einer Frage das ganze Gespr\u00e4ch ver\u00e4ndert?\n\n#Sagazit\u00e4t #EinWortReicher #Wortschatz",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "container": "18640461736028742",
+          "publish_attempted": true,
+          "media_id": "17991092154111778",
+          "published": true,
+          "media": {
+            "id": "17991092154111778",
+            "permalink": "https://www.instagram.com/reel/DfEs2bJlb0Q/",
+            "timestamp": "2026-10-29T09:37:44+0000"
+          },
+          "trial_params": {
+            "graduation_strategy": "MANUAL"
+          }
+        },
+        "18135596059620127-different-goals-film": {
+          "create_attempted": true,
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-sagazitaet-20261029-1000/18135596059620127-different-goals-film.mp4",
+            "caption": "Sagazit\u00e4t: Dasselbe Gespr\u00e4ch, zwei Ziele.\n\nKennst du jemanden, der mit einer Frage das ganze Gespr\u00e4ch ver\u00e4ndert?\n\n#Sagazit\u00e4t #EinWortReicher #Wortschatz",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "container": "18640461742028742",
+          "publish_attempted": true,
+          "media_id": "17900275308612131",
+          "published": true,
+          "media": {
+            "id": "17900275308612131",
+            "permalink": "https://www.instagram.com/reel/DfEsvqCj-4H/",
+            "timestamp": "2026-10-29T09:37:57+0000"
+          },
+          "trial_params": {
+            "graduation_strategy": "MANUAL"
+          }
+        }
+      }
     }
   }
 }
