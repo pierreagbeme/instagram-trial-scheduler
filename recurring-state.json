@@ -135,6 +135,86 @@
           }
         }
       }
+    },
+    "2026-10-29T18:00:00+01:00": {
+      "batch_id": "akrasia-20261029-1800",
+      "status": "published_manual_trial",
+      "execution": "local_user_authorized_catch_up",
+      "verified_at": "2026-10-29T20:00:33.157676+00:00",
+      "variants": {
+        "17871000390636633-one-more-episode": {
+          "create_attempted": true,
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-akrasia-20261029-1800/17871000390636633-one-more-episode.mp4",
+            "caption": "Akrasia: Nur noch eine Folge.\n\nDu wei\u00dft, was vern\u00fcnftig w\u00e4re \u2013 und machst trotzdem etwas anderes. Welches Beispiel kennst du?\n\n#Akrasia #EinWortReicher #Wortschatz",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "container": "18640638691028742",
+          "publish_attempted": true,
+          "media_id": "18348624637286895",
+          "published": true,
+          "media": {
+            "id": "18348624637286895",
+            "permalink": "https://www.instagram.com/reel/DfFz0YWgmIH/",
+            "timestamp": "2026-10-29T19:58:32+0000"
+          },
+          "trial_params": {
+            "graduation_strategy": "MANUAL"
+          }
+        },
+        "17871000390636633-buy-or-save": {
+          "create_attempted": true,
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-akrasia-20261029-1800/17871000390636633-buy-or-save.mp4",
+            "caption": "Akrasia: Sparen wollen, trotzdem kaufen.\n\nDu wei\u00dft, was vern\u00fcnftig w\u00e4re \u2013 und machst trotzdem etwas anderes. Welches Beispiel kennst du?\n\n#Akrasia #EinWortReicher #Wortschatz",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "container": "18640638697028742",
+          "publish_attempted": true,
+          "media_id": "18078470774724549",
+          "published": true,
+          "media": {
+            "id": "18078470774724549",
+            "permalink": "https://www.instagram.com/reel/DfFz4FmDPdc/",
+            "timestamp": "2026-10-29T19:58:46+0000"
+          },
+          "trial_params": {
+            "graduation_strategy": "MANUAL"
+          }
+        },
+        "17871000390636633-knowing-versus-doing": {
+          "create_attempted": true,
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-akrasia-20261029-1800/17871000390636633-knowing-versus-doing.mp4",
+            "caption": "Akrasia: Wissen ist nicht Handeln.\n\nDu wei\u00dft, was vern\u00fcnftig w\u00e4re \u2013 und machst trotzdem etwas anderes. Welches Beispiel kennst du?\n\n#Akrasia #EinWortReicher #Wortschatz",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "container": "18640638706028742",
+          "publish_attempted": true,
+          "media_id": "18132459043761126",
+          "published": true,
+          "media": {
+            "id": "18132459043761126",
+            "permalink": "https://www.instagram.com/reel/DfFz0xwDRxI/",
+            "timestamp": "2026-10-29T19:58:54+0000"
+          },
+          "trial_params": {
+            "graduation_strategy": "MANUAL"
+          }
+        }
+      }
     }
   }
 }
