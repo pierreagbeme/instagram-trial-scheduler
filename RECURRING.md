@@ -2,7 +2,7 @@
 
 Authorized 2026-10-27: daily 10:00 and 18:00 Europe/Berlin, each batch exactly three newly produced and quality-reviewed MANUAL Trial Reels. No regular fallback, no automatic graduation. Ambiguity tolerance remains deferred. Never recycle published media just to fill a slot.
 
-Production is performed by the Codex thread heartbeat at06:00/14:00 local time; Codex and this Mac must be available for production. Keep the next two publication slots stocked when possible. Prepared batches publish on a GitHub-hosted runner without the Mac. GitHub scheduling can be delayed; target windows are10:00–10:20 and18:00–18:20. Jobs begin09:17/17:17 and never publish before target. A missed/empty/failed slot is reported as workflow failure. No emergency replacement, no blind retries.
+Production is performed by the two Codex thread heartbeats at10:00/18:00 Europe/Berlin; Codex and this Mac must be available for production. Keep the next two future publication slots stocked when possible; if both are ready, do not produce additional batches. The current prepared batch is published only by the cloud while the heartbeat checks state and prepares future slots. Prepared batches publish on a GitHub-hosted runner without the Mac. GitHub scheduling can be delayed; target windows are10:00–10:20 and18:00–18:20. Jobs begin09:17/17:17 and never publish before target. A missed/empty/failed slot is reported as workflow failure. No emergency replacement, no blind retries.
 
 ## Producer procedure
 1. Read production-queue.json, publishing-journal.json, current Insights reports and QUALITY-REFERENCE.md in ../instagram-batch. Fetch remote recurring-queue.json and recurring-state.json via gh API; remote is authoritative. Check queued and already published sources. Read latest account Insights when helpful; do not infer a winner from early samples.
@@ -27,3 +27,6 @@ Pro neuer Dreier-Batch genau eine Version mit bildfüllend animiertem erklärend
 
 ## Replacing an untouched future batch
 When a new explicit creative preference affects a queued but unstarted batch, enqueue.py MANIFEST --replace-unstarted may replace exactly that batch ID and slot. Requires at least60min lead and no state entry for the slot. Checks before and after upload, checks old queue record unchanged, uploads a distinct immutable release revision; never overwrites transfer bytes or published records. Unchanged reviewed variants from that same batch may be retained. Recheck remote state/queue after success.
+
+## Missed untouched batches
+`enqueue.py MANIFEST --reschedule-unstarted` moves only a fully reviewed, untouched batch whose old20-minute window has closed, to an empty future slot with at least one hour lead. Exact three IDs, hashes, reviews and captions are rechecked; state is checked twice. Any state entry forbids the move. Existing immutable release assets are retained and previous time is preserved in rescheduled_from. No publishing or duplicate upload. On29Oct the never-started28Oct18 Habituation batch was moved to30Oct10. Two late GitHub runs on28Oct skipped outside window; scheduling remains unreliable. Do not mistake a successful no-op run for publication.

@@ -9,10 +9,39 @@ def replacement_guard(old,m,target,state,at):
  assert old and old['id']==m['id'] and datetime.fromisoformat(old['publish_at'])==target,'Exact existing batch and slot required'
  assert target-at>=timedelta(hours=1),'Replacement requires at least one hour lead'
  assert not any(datetime.fromisoformat(key)==target for key in state.get('slots',{})),'Publisher has started this slot; replacement forbidden'
+def reschedule_guard(old,m,target,state,at,queue):
+ assert old and old['id']==m['id'],'Exact existing batch required'
+ previous=datetime.fromisoformat(old['publish_at'])
+ assert previous+timedelta(minutes=20)<at,'Old publication window must be closed'
+ assert target-at>=timedelta(hours=1),'Reschedule requires one hour lead'
+ assert not any(datetime.fromisoformat(k) in (previous,target) for k in state.get('slots',{})),'Started or reserved slot cannot be moved'
+ assert not any(b['id']!=old['id'] and datetime.fromisoformat(b['publish_at'])==target for b in queue['batches']),'Destination occupied'
+def reschedule(m,target,data,q):
+ old=next((b for b in q['batches'] if b['id']==m['id']),None)
+ def state():return json.loads(base64.b64decode(json.loads(cmd('api',f'repos/{REPO}/contents/recurring-state.json'))['content']))
+ reschedule_guard(old,m,target,state(),datetime.now(timezone.utc),q)
+ assert len(m['variants'])==len(old['variants'])==3
+ assert {v['id'] for v in m['variants']}=={v['id'] for v in old['variants']}
+ for v in m['variants']:
+  r=next(x for x in old['variants'] if x['id']==v['id']);f=Path(v['file']);review=json.loads(Path(v['review_file']).read_text())
+  assert review['passed'] is True and review['publication_allowed'] is True
+  assert hashlib.sha256(f.read_bytes()).hexdigest()==review['sha256']==r['sha256']
+  assert v['caption']==r['caption'],'Reschedule may not alter approved content'
+ fresh=json.loads(cmd('api',f'repos/{REPO}/contents/recurring-queue.json'));queue=json.loads(base64.b64decode(fresh['content']))
+ current=next((b for b in queue['batches'] if b['id']==m['id']),None);assert current==old,'Batch changed during review'
+ reschedule_guard(current,m,target,state(),datetime.now(timezone.utc),queue)
+ current.setdefault('rescheduled_from',[]).append(current['publish_at']);current['publish_at']=target.isoformat()
+ payload={'message':'Reschedule untouched reviewed batch '+m['id'],'sha':fresh['sha'],'content':base64.b64encode(json.dumps(queue,indent=2,ensure_ascii=False).encode()).decode()}
+ with tempfile.NamedTemporaryFile(mode='w',suffix='.json') as f:
+  json.dump(payload,f);f.flush();cmd('api',f'repos/{REPO}/contents/recurring-queue.json','--method','PUT','--input',f.name)
+ print('Rescheduled untouched reviewed batch',m['id'],'for',target.isoformat(),'; no upload or publishing.')
 def main():
  m=json.loads(Path(sys.argv[1]).read_text());assert re.fullmatch(r'[a-z0-9-]{5,80}',m['id']);assert m['account']=='pierreagbeme';target=datetime.fromisoformat(m['publish_at']);local=target.astimezone(ZoneInfo('Europe/Berlin'));assert target>datetime.now(timezone.utc) and local.hour in (10,18) and local.minute==local.second==0
  variants=m['variants'];assert len(variants)==3 and len({v['id'] for v in variants})==3
  data=json.loads(cmd('api',f'repos/{REPO}/contents/recurring-queue.json'));q=json.loads(base64.b64decode(data['content']))
+ if '--reschedule-unstarted' in sys.argv[2:]:
+  assert '--replace-unstarted' not in sys.argv[2:]
+  reschedule(m,target,data,q);return
  old=next((b for b in q['batches'] if b['id']==m['id'] or datetime.fromisoformat(b['publish_at'])==target),None)
  replace='--replace-unstarted' in sys.argv[2:]
  if replace:
