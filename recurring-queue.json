@@ -40,7 +40,7 @@
     },
     {
       "id": "habituation-20261028-1800",
-      "publish_at": "2026-10-28T18:00:00+01:00",
+      "publish_at": "2026-10-30T10:00:00+01:00",
       "approved": true,
       "variants": [
         {
@@ -65,7 +65,10 @@
           "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-habituation-20261028-1800-revision-1e639d407c/18088777082452396-space-for-new-full.mp4"
         }
       ],
-      "release_tag": "batch-habituation-20261028-1800-revision-1e639d407c"
+      "release_tag": "batch-habituation-20261028-1800-revision-1e639d407c",
+      "rescheduled_from": [
+        "2026-10-28T18:00:00+01:00"
+      ]
     },
     {
       "id": "sagazitaet-20261029-1000",
