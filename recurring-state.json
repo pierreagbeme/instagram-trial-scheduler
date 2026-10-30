@@ -286,6 +286,77 @@
           }
         }
       }
+    },
+    "2026-10-30T18:00:00+01:00": {
+      "batch_id": "lakonie-20261030-1800",
+      "status": "published_manual_trial",
+      "execution": "local",
+      "verified_at": "2026-10-30T17:04:19.653677+00:00",
+      "variants": {
+        "18644655649032568-one-word-day": {
+          "create_attempted": true,
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-lakonie-20261030-1800/18644655649032568-one-word-day.mp4",
+            "caption": "Lakonie: Ein ganzer Tag in einem Wort\n\nWen kennst du, der mit wenigen Worten viel sagt?\n\n#EinWortReicher #Lakonie #Wortschatz",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "container": "18640937827028742",
+          "publish_attempted": true,
+          "media_id": "18110397833264019",
+          "published": true,
+          "media": {
+            "id": "18110397833264019",
+            "permalink": "https://www.instagram.com/reel/DfIEmBKgIzd/",
+            "timestamp": "2026-10-30T17:03:28+0000"
+          }
+        },
+        "18644655649032568-tone-changes-meaning": {
+          "create_attempted": true,
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-lakonie-20261030-1800/18644655649032568-tone-changes-meaning.mp4",
+            "caption": "Lakonie: Der Ton entscheidet\n\nWen kennst du, der mit wenigen Worten viel sagt?\n\n#EinWortReicher #Lakonie #Wortschatz",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "container": "18640937830028742",
+          "publish_attempted": true,
+          "media_id": "18087415268705437",
+          "published": true,
+          "media": {
+            "id": "18087415268705437",
+            "permalink": "https://www.instagram.com/reel/DfIEr6XI9Mo/",
+            "timestamp": "2026-10-30T17:03:44+0000"
+          }
+        },
+        "18644655649032568-edit-to-essence": {
+          "create_attempted": true,
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-lakonie-20261030-1800/18644655649032568-edit-to-essence.mp4",
+            "caption": "Lakonie: Alles \u00dcberfl\u00fcssige f\u00e4llt weg\n\nWen kennst du, der mit wenigen Worten viel sagt?\n\n#EinWortReicher #Lakonie #Wortschatz",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "container": "18640937833028742",
+          "publish_attempted": true,
+          "media_id": "18113025803186060",
+          "published": true,
+          "media": {
+            "id": "18113025803186060",
+            "permalink": "https://www.instagram.com/reel/DfIEmMhgYRs/",
+            "timestamp": "2026-10-30T17:04:01+0000"
+          }
+        }
+      }
     }
   }
 }
