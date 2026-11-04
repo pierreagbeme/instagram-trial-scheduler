@@ -357,6 +357,102 @@
           }
         }
       }
+    },
+    "2026-11-04T09:31:06.889553+00:00": {
+      "batch_id": "noblesse-20261104-catchup",
+      "status": "published_manual_trial",
+      "execution": "local",
+      "verified_at": "2026-11-04T09:33:45.434229+00:00",
+      "authorization": "Explicit user request: finish and publish now outside scheduled time, 2026-11-04",
+      "variants": {
+        "17921446251222270-dignity-in-debate": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-04T09:31:49.797195+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-noblesse-20261104/17921446251222270-dignity-in-debate.mp4",
+            "caption": "Noblesse: Gewinnen und W\u00fcrde lassen\n\nWelche Person verbindest du mit Noblesse? Schick ihr dieses Video.\n\n#EinWortReicher #Noblesse #Wortschatz",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "7525459223eb5cf071d928884cb172141af32a6d142f6250bdd23ea60bf32fc0",
+          "authorization": "Explicit user request: finish and publish now outside scheduled time, 2026-11-04",
+          "container": "18642605983028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-04T09:33:15.557021+00:00",
+          "media_id": "17935880064408193",
+          "published": true,
+          "media": {
+            "id": "17935880064408193",
+            "permalink": "https://www.instagram.com/reel/DfUJDwvgTbo/",
+            "timestamp": "2026-11-04T09:33:16+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18642605983028742"
+          }
+        },
+        "17921446251222270-notice-the-unseen": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-04T09:31:50.647499+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-noblesse-20261104/17921446251222270-notice-the-unseen.mp4",
+            "caption": "Noblesse: Die \u00fcbersehene Person\n\nWelche Person verbindest du mit Noblesse? Schick ihr dieses Video.\n\n#EinWortReicher #Noblesse #Wortschatz",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "92177712f2315e333292521b65311169ceca76a3d7e09197375460e691b2df32",
+          "authorization": "Explicit user request: finish and publish now outside scheduled time, 2026-11-04",
+          "container": "18642605992028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-04T09:33:23.044412+00:00",
+          "media_id": "17921015640466602",
+          "published": true,
+          "media": {
+            "id": "17921015640466602",
+            "permalink": "https://www.instagram.com/reel/DfUJESTgjfX/",
+            "timestamp": "2026-11-04T09:33:24+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18642605992028742"
+          }
+        },
+        "17921446251222270-strength-builds-access": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-04T09:31:52.006710+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-noblesse-20261104/17921446251222270-strength-builds-access.mp4",
+            "caption": "Noblesse: St\u00e4rke verpflichtet\n\nWelche Person verbindest du mit Noblesse? Schick ihr dieses Video.\n\n#EinWortReicher #Noblesse #Wortschatz",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "7bc20b6a3589093e932480b412e66270ba6e9b6a1e0f200523dc44d584ab2be1",
+          "authorization": "Explicit user request: finish and publish now outside scheduled time, 2026-11-04",
+          "container": "18642605995028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-04T09:33:30.025508+00:00",
+          "media_id": "18110617394251886",
+          "published": true,
+          "media": {
+            "id": "18110617394251886",
+            "permalink": "https://www.instagram.com/reel/DfUJGJHgi_G/",
+            "timestamp": "2026-11-04T09:33:31+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18642605995028742"
+          }
+        }
+      }
     }
   }
 }
