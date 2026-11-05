@@ -552,6 +552,105 @@
           }
         }
       }
+    },
+    "2026-11-05T18:00:00+01:00": {
+      "batch_id": "phronesis-20261105-1800",
+      "status": "published_manual_trial",
+      "execution": "local",
+      "verified_at": "2026-11-05T17:10:54.550953+00:00",
+      "authorization": "Scheduled local release",
+      "variants": {
+        "18027151616857467-honest-at-the-right-time": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-05T17:08:30.660060+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://visual-belief-buyers-respected.trycloudflare.com/wiHOq-OBVz89kCg4xv06PLOxm5kUirGS.mp4",
+            "caption": "Phronesis: Ehrlich im richtigen Moment\n\nAn wen denkst du dabei? Schick dieser Person das Video.\n\n#EinWortReicher #Phronesis #Wortschatz",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "798bb243b03f509f0eced2279bf92e6516b90f90d8ebad5d85ab29de12c48f3d",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-05T18:00:00+01:00",
+          "container": "18643115881028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-05T17:10:31.042633+00:00",
+          "media_id": "17876001780596955",
+          "published": true,
+          "media": {
+            "id": "17876001780596955",
+            "permalink": "https://www.instagram.com/reel/DfXiLAsASyD/",
+            "timestamp": "2026-11-05T17:10:32+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18643115881028742"
+          }
+        },
+        "18027151616857467-beyond-the-rule": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-05T17:08:31.504967+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://visual-belief-buyers-respected.trycloudflare.com/56fffboroBFXdV3OKWbHU3XwM29ehBh8.mp4",
+            "caption": "Phronesis: Folgen mitdenken\n\nAn wen denkst du dabei? Schick dieser Person das Video.\n\n#EinWortReicher #Phronesis #Wortschatz",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "c8f27ea8fad45fa1e3873e73d2546aa59d2c5f49a0436c67aeb25f6d9aaf0413",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-05T18:00:00+01:00",
+          "container": "18643115884028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-05T17:10:38.581692+00:00",
+          "media_id": "18115568489602845",
+          "published": true,
+          "media": {
+            "id": "18115568489602845",
+            "permalink": "https://www.instagram.com/reel/DfXiKAPD2V3/",
+            "timestamp": "2026-11-05T17:10:39+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18643115884028742"
+          }
+        },
+        "18027151616857467-knowledge-fits-context": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-05T17:08:32.193099+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://visual-belief-buyers-respected.trycloudflare.com/bhDAfJW32PDMOvcpZBS33zIDWby636Ut.mp4",
+            "caption": "Phronesis: Wissen passend anwenden\n\nAn wen denkst du dabei? Schick dieser Person das Video.\n\n#EinWortReicher #Phronesis #Wortschatz",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "f7895fcbab0ca9cf848899fc291aac7e588549d4612f92ad0cdbcdb4ff3e6ca8",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-05T18:00:00+01:00",
+          "container": "18643115887028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-05T17:10:47.384376+00:00",
+          "media_id": "18076039385737613",
+          "published": true,
+          "media": {
+            "id": "18076039385737613",
+            "permalink": "https://www.instagram.com/reel/DfXiIk2mRyM/",
+            "timestamp": "2026-11-05T17:10:48+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18643115887028742"
+          }
+        }
+      }
     }
   }
 }
