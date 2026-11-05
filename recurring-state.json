@@ -453,6 +453,105 @@
           }
         }
       }
+    },
+    "2026-11-05T10:00:00+01:00": {
+      "batch_id": "neophilie-20261105-1000",
+      "status": "published_manual_trial",
+      "execution": "local",
+      "verified_at": "2026-11-05T09:03:56.805914+00:00",
+      "authorization": "Scheduled local release",
+      "variants": {
+        "17890594512433574-new-on-the-menu": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-05T09:01:48.761896+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://investor-mat-processors-tapes.trycloudflare.com/JBaM0xWeuAgYsHqwwZqisoP0dOFZ9TaB.mp4",
+            "caption": "Neophilie: Das unbekannte Gericht\n\nAn wen denkst du dabei? Schick dieser Person das Video.\n\n#EinWortReicher #Neophilie #Wortschatz",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "ca5b7388969b07b3940224d67dd25dcfc33f33e6bf685ed33f80fe65ef13c864",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-05T10:00:00+01:00",
+          "container": "18643002226028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-05T09:03:05.867544+00:00",
+          "media_id": "17913201573506763",
+          "published": true,
+          "media": {
+            "id": "17913201573506763",
+            "permalink": "https://www.instagram.com/reel/DfWqb9ukwPe/",
+            "timestamp": "2026-11-05T09:03:08+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18643002226028742"
+          }
+        },
+        "17890594512433574-first-day-at-a-course": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-05T09:01:49.914513+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://investor-mat-processors-tapes.trycloudflare.com/jeAFHecM4lrwARUSWW6VW1a_PLBFQ6vs.mp4",
+            "caption": "Neophilie: Ein fremdes Hobby\n\nAn wen denkst du dabei? Schick dieser Person das Video.\n\n#EinWortReicher #Neophilie #Wortschatz",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "fef09b29872f09126b897fe6f3d1d886cc7fa4c01553d747d4cf33d4d073ba0a",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-05T10:00:00+01:00",
+          "container": "18643002235028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-05T09:03:23.313665+00:00",
+          "media_id": "18129779287857800",
+          "published": true,
+          "media": {
+            "id": "18129779287857800",
+            "permalink": "https://www.instagram.com/reel/DfWqcBrHIva/",
+            "timestamp": "2026-11-05T09:03:26+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18643002235028742"
+          }
+        },
+        "17890594512433574-doors-to-new-worlds": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-05T09:01:51.233670+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://investor-mat-processors-tapes.trycloudflare.com/e92Qt6-FQeC4pskKWwQPyDOqSLEuHhKQ.mp4",
+            "caption": "Neophilie: Neue Welten entdecken\n\nAn wen denkst du dabei? Schick dieser Person das Video.\n\n#EinWortReicher #Neophilie #Wortschatz",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "3d1a8e19c83dcf4a66659f2103d8dfe6c463a663535c562e5de6729df17eb073",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-05T10:00:00+01:00",
+          "container": "18643002241028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-05T09:03:41.074710+00:00",
+          "media_id": "18032693222889293",
+          "published": true,
+          "media": {
+            "id": "18032693222889293",
+            "permalink": "https://www.instagram.com/reel/DfWqbuCjIsA/",
+            "timestamp": "2026-11-05T09:03:43+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18643002241028742"
+          }
+        }
+      }
     }
   }
 }
