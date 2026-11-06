@@ -750,6 +750,105 @@
           }
         }
       }
+    },
+    "2026-11-06T18:00:00+01:00": {
+      "batch_id": "allophilie-20261106-1800",
+      "status": "published_manual_trial",
+      "execution": "local",
+      "verified_at": "2026-11-06T17:17:01.273894+00:00",
+      "authorization": "Scheduled local release",
+      "variants": {
+        "18173274466452601-three-generations": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-06T17:14:53.017855+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-allophilie-20261106-1800/18173274466452601-three-generations.mp4",
+            "caption": "Drei Generationen unter einem Dach. Welche Frage w\u00fcrdest du am Abendbrottisch stellen? #Allophilie #EinWortReicher",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "557a52fff0ce612291b74aaef251dc0a7a1c8d67cd17d32e6a6eaf9234e97627",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-06T18:00:00+01:00",
+          "container": "18643451182028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-06T17:16:23.353841+00:00",
+          "media_id": "18576269455072203",
+          "published": true,
+          "media": {
+            "id": "18576269455072203",
+            "permalink": "https://www.instagram.com/reel/DfaHtdnk8Pl/",
+            "timestamp": "2026-11-06T17:16:24+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18643451182028742"
+          }
+        },
+        "18173274466452601-personal-story": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-06T17:14:53.652357+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-allophilie-20261106-1800/18173274466452601-personal-story.mp4",
+            "caption": "Wann hat dir eine pers\u00f6nliche Geschichte eine fremde Lebensweise n\u00e4hergebracht? #Allophilie #Wortschatz",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "4dab96294ad3c34676940d7c1066e4a301d2e17834cb62e8ef6845d13a5d31ee",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-06T18:00:00+01:00",
+          "container": "18643451185028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-06T17:16:33.075346+00:00",
+          "media_id": "18114032756597273",
+          "published": true,
+          "media": {
+            "id": "18114032756597273",
+            "permalink": "https://www.instagram.com/reel/DfaHpOYEWBp/",
+            "timestamp": "2026-11-06T17:16:34+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18643451185028742"
+          }
+        },
+        "18173274466452601-an-open-door": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-06T17:14:54.550529+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-allophilie-20261106-1800/18173274466452601-an-open-door.mp4",
+            "caption": "Jemand lebt ganz anders als du und du m\u00f6chtest mehr erfahren. F\u00fcr diese Haltung gibt es ein Wort. #Allophilie #EinWortReicher",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "1138b144bb8f0438ed75fcb28a14b91618e3e807f717879fd7492878e3702675",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-06T18:00:00+01:00",
+          "container": "18643451188028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-06T17:16:43.537143+00:00",
+          "media_id": "18097493003737760",
+          "published": true,
+          "media": {
+            "id": "18097493003737760",
+            "permalink": "https://www.instagram.com/reel/DfaHpfKCPZ8/",
+            "timestamp": "2026-11-06T17:16:51+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18643451188028742"
+          }
+        }
+      }
     }
   }
 }
