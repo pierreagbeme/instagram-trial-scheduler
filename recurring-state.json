@@ -651,6 +651,105 @@
           }
         }
       }
+    },
+    "2026-11-06T10:00:00+01:00": {
+      "batch_id": "volition-20261106-1000",
+      "status": "published_manual_trial",
+      "execution": "local",
+      "verified_at": "2026-11-06T09:03:16.096461+00:00",
+      "authorization": "Scheduled local release",
+      "variants": {
+        "18167114803481960-rain-or-running": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-06T09:00:07.940892+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://analysts-syndrome-participant-adipex.trycloudflare.com/dRd6fF57pLSh0KVWcS6k15EB05_VFNFF.mp4",
+            "caption": "Nach drei Wochen regnet es. Das Sofa w\u00e4re bequemer. Was bringt dich trotzdem dazu, die Laufschuhe anzuziehen? #Volition #EinWortReicher",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "6ea1005c72f90a15867a819a3101bc07d09e960d9c3837080a47cea3994998b1",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-06T10:00:00+01:00",
+          "container": "18643321111028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-06T09:02:50.242059+00:00",
+          "media_id": "17939998650400757",
+          "published": true,
+          "media": {
+            "id": "17939998650400757",
+            "permalink": "https://www.instagram.com/reel/DfZPCjujtX6/",
+            "timestamp": "2026-11-06T09:02:51+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18643321111028742"
+          }
+        },
+        "18167114803481960-without-applause": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-06T09:00:08.842886+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://analysts-syndrome-participant-adipex.trycloudflare.com/wSPgY8pw4XPmzQ-Qq2kMzMecT9q00nW3.mp4",
+            "caption": "Welches Versprechen an dich selbst h\u00e4ltst du auch dann, wenn niemand zusieht? Daf\u00fcr gibt es ein Wort. #Volition #Wortschatz",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "9ebdfe9057f2d1b86214e53437959bcf20a2ca2eeb266afa69e851d70465eefe",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-06T10:00:00+01:00",
+          "container": "18643321114028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-06T09:02:57.354695+00:00",
+          "media_id": "18082371851380829",
+          "published": true,
+          "media": {
+            "id": "18082371851380829",
+            "permalink": "https://www.instagram.com/reel/DfZPIUTDQlf/",
+            "timestamp": "2026-11-06T09:02:58+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18643321114028742"
+          }
+        },
+        "18167114803481960-paper-takes-flight": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-06T09:00:09.993021+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://analysts-syndrome-participant-adipex.trycloudflare.com/VumH2hDjMpgNC_PWIKdH-Y2O3HqtsDwc.mp4",
+            "caption": "Eine Idee bekommt Form. Und dann kommt Gegenwind. Volition beschreibt, wie aus einem Entschluss trotz Ablenkung eine Handlung wird. #Volition #EinWortReicher",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "bf97cc22f0312c8099be224cfee8d6a948744943ce5b474f90ba2ed8ed391354",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-06T10:00:00+01:00",
+          "container": "18643321120028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-06T09:03:05.850302+00:00",
+          "media_id": "18121368047078435",
+          "published": true,
+          "media": {
+            "id": "18121368047078435",
+            "permalink": "https://www.instagram.com/reel/DfZPCdmAVgd/",
+            "timestamp": "2026-11-06T09:03:07+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18643321120028742"
+          }
+        }
+      }
     }
   }
 }
