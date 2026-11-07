@@ -948,6 +948,105 @@
           }
         }
       }
+    },
+    "2026-11-07T18:00:00+01:00": {
+      "batch_id": "ambidextrie-20261107-1800",
+      "status": "published_manual_trial",
+      "execution": "local",
+      "verified_at": "2026-11-07T17:06:59.089626+00:00",
+      "authorization": "Scheduled local release",
+      "variants": {
+        "18143424769603762-reliable-and-new": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-07T17:04:47.007726+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-ambidextrie-20261107-1800/18143424769603762-reliable-and-new.mp4",
+            "caption": "Der Alltag l\u00e4uft zuverl\u00e4ssig. Und trotzdem l\u00e4sst sich etwas verbessern. Wer schafft beides in deinem Team? #Ambidextrie #EinWortReicher",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "5ec2ba20408e5855cf2d5c839ff62c8997f5e9025a6f25c1751c6539802241d9",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-07T18:00:00+01:00",
+          "container": "18643792384028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-07T17:06:21.536999+00:00",
+          "media_id": "18132416455816253",
+          "published": true,
+          "media": {
+            "id": "18132416455816253",
+            "permalink": "https://www.instagram.com/reel/DfcrSBzkdrU/",
+            "timestamp": "2026-11-07T17:06:23+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18643792384028742"
+          }
+        },
+        "18143424769603762-keep-what-works": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-07T17:04:48.077521+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-ambidextrie-20261107-1800/18143424769603762-keep-what-works.mp4",
+            "caption": "Eine neue Idee ausprobieren, das Ergebnis pr\u00fcfen und gezielt \u00fcbernehmen. Daf\u00fcr gibt es ein Wort. #Ambidextrie #Wortschatz",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "201927df4563f5463377e10e77e96aa47514340c77b89176a6a1bdf99ff349ec",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-07T18:00:00+01:00",
+          "container": "18643792387028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-07T17:06:34.215553+00:00",
+          "media_id": "17930815146186078",
+          "published": true,
+          "media": {
+            "id": "17930815146186078",
+            "permalink": "https://www.instagram.com/reel/DfcrSGEgHTp/",
+            "timestamp": "2026-11-07T17:06:35+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18643792387028742"
+          }
+        },
+        "18143424769603762-two-ways-working": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-07T17:04:49.065590+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-ambidextrie-20261107-1800/18143424769603762-two-ways-working.mp4",
+            "caption": "Bew\u00e4hrtes anwenden und Neues erkunden. Kennst du jemanden, der beide St\u00e4rken verbindet? #Ambidextrie #EinWortReicher",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "a8afd24742ad15a06308b0a3e008fbdacf4bc897452c5bc7042b66535ccf53f5",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-07T18:00:00+01:00",
+          "container": "18643792390028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-07T17:06:44.811953+00:00",
+          "media_id": "18270766630306853",
+          "published": true,
+          "media": {
+            "id": "18270766630306853",
+            "permalink": "https://www.instagram.com/reel/DfcrUJBnGlT/",
+            "timestamp": "2026-11-07T17:06:46+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18643792390028742"
+          }
+        }
+      }
     }
   }
 }
