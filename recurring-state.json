@@ -849,6 +849,105 @@
           }
         }
       }
+    },
+    "2026-11-07T10:00:00+01:00": {
+      "batch_id": "polymathie-20261107-1000",
+      "status": "published_manual_trial",
+      "execution": "local",
+      "verified_at": "2026-11-07T09:05:35.426270+00:00",
+      "authorization": "Scheduled local release",
+      "variants": {
+        "17925999714411978-the-curious-friend": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-07T09:03:09.417481+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-polymathie-20261107-1000/17925999714411978-the-curious-friend.mp4",
+            "caption": "Psychologie, Geschichte, Programmieren und Musik. An welchen Freund denkst du gerade? #Polymathie #EinWortReicher",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "fc85511cb269e4054d54647d5ce87ec94431935613dc9e329dcce81b1bf22390",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-07T10:00:00+01:00",
+          "container": "18643669855028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-07T09:05:08.991854+00:00",
+          "media_id": "18452220307193035",
+          "published": true,
+          "media": {
+            "id": "18452220307193035",
+            "permalink": "https://www.instagram.com/reel/Dfb0KhZkRmc/",
+            "timestamp": "2026-11-07T09:05:10+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18643669855028742"
+          }
+        },
+        "17925999714411978-below-the-surface": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-07T09:03:10.420516+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-polymathie-20261107-1000/17925999714411978-below-the-surface.mp4",
+            "caption": "Viele Interessen sind der Anfang. Was macht daraus fundiertes Wissen? #Polymathie #Wortschatz",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "0c4aadd185d5e68181171dd8ff19a7b542e1760dddb9ff493e979fcf1e3aeec7",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-07T10:00:00+01:00",
+          "container": "18643669858028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-07T09:05:17.210762+00:00",
+          "media_id": "18144447238611601",
+          "published": true,
+          "media": {
+            "id": "18144447238611601",
+            "permalink": "https://www.instagram.com/reel/Dfb0KqnE7Du/",
+            "timestamp": "2026-11-07T09:05:19+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18643669858028742"
+          }
+        },
+        "17925999714411978-knowledge-in-motion": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-07T09:03:11.110009+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-polymathie-20261107-1000/17925999714411978-knowledge-in-motion.mp4",
+            "caption": "Wissen aus verschiedenen Gebieten verbinden und Zusammenh\u00e4nge erkennen. Kennst du jemanden, der das kann? #Polymathie #EinWortReicher",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "e23b4f215fd1f5cee89786330ff23b00a0c0f4b5d91d0ac9ce5ce356d103b9a7",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-07T10:00:00+01:00",
+          "container": "18643669864028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-07T09:05:27.218875+00:00",
+          "media_id": "18127945834918601",
+          "published": true,
+          "media": {
+            "id": "18127945834918601",
+            "permalink": "https://www.instagram.com/reel/Dfb0OdDimSt/",
+            "timestamp": "2026-11-07T09:05:28+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18643669864028742"
+          }
+        }
+      }
     }
   }
 }
