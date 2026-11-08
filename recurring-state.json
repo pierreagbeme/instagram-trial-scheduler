@@ -1146,6 +1146,105 @@
           }
         }
       }
+    },
+    "2026-11-08T18:00:00+01:00": {
+      "batch_id": "introjektion-20261108-1800",
+      "status": "published_manual_trial",
+      "execution": "local",
+      "verified_at": "2026-11-08T17:04:58.348280+00:00",
+      "authorization": "Scheduled local release",
+      "variants": {
+        "18109966766121579-voice-becomes-rule": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-08T17:01:58.634482+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-introjektion-20261108-1800/18109966766121579-voice-becomes-rule.mp4",
+            "caption": "Wer hat dir beigebracht, dass du immer leisten musst? Manchmal spricht ein fremder Satz in uns weiter. #Introjektion #EinWortReicher",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "077df8a72c93985a6d261a27a03d2d54ea8d0de744a8d94a33c83296c907b75c",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-08T18:00:00+01:00",
+          "container": "18644126836028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-08T17:04:04.343994+00:00",
+          "media_id": "18006077316001349",
+          "published": true,
+          "media": {
+            "id": "18006077316001349",
+            "permalink": "https://www.instagram.com/reel/DffP1SbglaK/",
+            "timestamp": "2026-11-08T17:04:05+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18644126836028742"
+          }
+        },
+        "18109966766121579-what-makes-me-worthy": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-08T17:01:59.804991+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-introjektion-20261108-1800/18109966766121579-what-makes-me-worthy.mp4",
+            "caption": "Gef\u00fchle sind Schw\u00e4che? Nur Leistung macht wertvoll? Welche dieser Regeln hast du wirklich selbst gew\u00e4hlt? #Introjektion #Wortschatz",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "0951c56dbe91196b49c1007bacffdf8312708c8fc94da16111a4ff547576b02a",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-08T18:00:00+01:00",
+          "container": "18644126887028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-08T17:04:13.907613+00:00",
+          "media_id": "18008845968007281",
+          "published": true,
+          "media": {
+            "id": "18008845968007281",
+            "permalink": "https://www.instagram.com/reel/DffPwe-GYME/",
+            "timestamp": "2026-11-08T17:04:15+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18644126887028742"
+          }
+        },
+        "18109966766121579-borrowed-view": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-08T17:02:00.828190+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-introjektion-20261108-1800/18109966766121579-borrowed-view.mp4",
+            "caption": "Nicht jede \u00dcberzeugung stammt von uns selbst. Introjektion beschreibt, wie fremde Werte Teil unseres Denkens werden. #Introjektion #EinWortReicher",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "41bb772fd776cbe6e9020c86f284424f4b9960da1b3b39bac1188bd33a14f5fc",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-08T18:00:00+01:00",
+          "container": "18644126890028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-08T17:04:23.029664+00:00",
+          "media_id": "17998199436019499",
+          "published": true,
+          "media": {
+            "id": "17998199436019499",
+            "permalink": "https://www.instagram.com/reel/DffPwiij00g/",
+            "timestamp": "2026-11-08T17:04:24+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18644126890028742"
+          }
+        }
+      }
     }
   }
 }
