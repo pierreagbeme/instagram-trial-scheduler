@@ -1047,6 +1047,105 @@
           }
         }
       }
+    },
+    "2026-11-08T10:00:00+01:00": {
+      "batch_id": "rumination-20261108-1000",
+      "status": "published_manual_trial",
+      "execution": "local",
+      "verified_at": "2026-11-08T09:05:33.746785+00:00",
+      "authorization": "Scheduled local release",
+      "variants": {
+        "18131074966657334-through-the-evening": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-08T09:03:17.620954+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://periods-walked-messaging-awesome.trycloudflare.com/cQRmCEpVK6FlVhICJHtmSrtgjoQc7I5j.mp4",
+            "caption": "Beim Abendessen, unter der Dusche, vor dem Einschlafen. Kennst du diesen Satz, der dir immer wieder einf\u00e4llt? #Rumination #EinWortReicher",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "bc8367ab14e4f50c968d56d376ba8e2690145ea12c5869771c946c01a912c6fc",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-08T10:00:00+01:00",
+          "container": "18643998160028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-08T09:04:34.683931+00:00",
+          "media_id": "18641101822000690",
+          "published": true,
+          "media": {
+            "id": "18641101822000690",
+            "permalink": "https://www.instagram.com/reel/DfeY_BLgSXq/",
+            "timestamp": "2026-11-08T09:04:37+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18643998160028742"
+          }
+        },
+        "18131074966657334-clarity-or-repeat": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-08T09:03:18.667462+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://periods-walked-messaging-awesome.trycloudflare.com/NJwOl1gmdoDnlJzv1StCjFFa3CBFARLn.mp4",
+            "caption": "Bringt das Nachdenken neue Klarheit oder kehrt dieselbe Unsicherheit zur\u00fcck? #Rumination #Wortschatz",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "0915f6575af0582d51e8294429eb82832868cf03e6ff09b441817fc97b662b56",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-08T10:00:00+01:00",
+          "container": "18643998172028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-08T09:04:51.769662+00:00",
+          "media_id": "18073829390772886",
+          "published": true,
+          "media": {
+            "id": "18073829390772886",
+            "permalink": "https://www.instagram.com/reel/DfeY_DQDxfp/",
+            "timestamp": "2026-11-08T09:04:54+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18643998172028742"
+          }
+        },
+        "18131074966657334-stuck-in-the-groove": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-08T09:03:19.778147+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://periods-walked-messaging-awesome.trycloudflare.com/YiaFgPzYMcIwnStBPv1C_A9g62wtMg-W.mp4",
+            "caption": "Wenn ein Gespr\u00e4ch im Kopf immer wieder von vorn beginnt. Daf\u00fcr gibt es ein Wort. #Rumination #EinWortReicher",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "0181b4381eba1cb96bf6ca032219ba0b4534993931341d5823c12167ff733425",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-08T10:00:00+01:00",
+          "container": "18643998175028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-08T09:05:07.824394+00:00",
+          "media_id": "18123125225471356",
+          "published": true,
+          "media": {
+            "id": "18123125225471356",
+            "permalink": "https://www.instagram.com/reel/DfeZBiFk5Ny/",
+            "timestamp": "2026-11-08T09:05:10+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18643998175028742"
+          }
+        }
+      }
     }
   }
 }
