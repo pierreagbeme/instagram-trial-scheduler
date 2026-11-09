@@ -1245,6 +1245,105 @@
           }
         }
       }
+    },
+    "2026-11-09T10:00:00+01:00": {
+      "batch_id": "flexibilitaet-20261109-1000",
+      "status": "published_manual_trial",
+      "execution": "local",
+      "verified_at": "2026-11-09T14:04:38.345698+00:00",
+      "authorization": "Scheduled local release",
+      "variants": {
+        "18148614736492940-try-another-route": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-09T09:06:04.385005+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-flexibilitaet-20261109-1000/18148614736492940-try-another-route.mp4",
+            "caption": "Wenn ein Weg nicht funktioniert: einen neuen versuchen. Das beschreibt kognitive Flexibilit\u00e4t. #KognitiveFlexibilit\u00e4t #EinWortReicher",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "d7b45263981e7cc3d008c0eae9d7c4430769499716ab70e189d23a271b7200e2",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-09T10:00:00+01:00",
+          "container": "18644376637028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-09T14:03:56.931725+00:00",
+          "media_id": "18042583271643689",
+          "published": true,
+          "media": {
+            "id": "18042583271643689",
+            "permalink": "https://www.instagram.com/reel/Dfg-FceFOEP/",
+            "timestamp": "2026-11-09T14:03:58+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18644376637028742"
+          }
+        },
+        "18148614736492940-revise-without-defeat": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-09T09:06:05.029361+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-flexibilitaet-20261109-1000/18148614736492940-revise-without-defeat.mp4",
+            "caption": "Ich lag falsch. Jetzt sehe ich das anders. Eine Meinung \u00e4ndern zu k\u00f6nnen ist eine St\u00e4rke. #KognitiveFlexibilit\u00e4t #Wortschatz",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "fce19266648c36b9e841e28e53a7085bd2f369f1286f0444d18116fda223af33",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-09T10:00:00+01:00",
+          "container": "18644376640028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-09T14:04:06.633563+00:00",
+          "media_id": "17913135405588777",
+          "published": true,
+          "media": {
+            "id": "17913135405588777",
+            "permalink": "https://www.instagram.com/reel/Dfg-KPqIS4z/",
+            "timestamp": "2026-11-09T14:04:07+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18644376640028742"
+          }
+        },
+        "18148614736492940-change-the-key": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-09T09:06:05.982757+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-flexibilitaet-20261109-1000/18148614736492940-change-the-key.mp4",
+            "caption": "Neue Informationen k\u00f6nnen unser Denken ver\u00e4ndern. Und eine fremde Perspektive kann verst\u00e4ndlich sein, ohne die eigene zu ersetzen. #KognitiveFlexibilit\u00e4t #EinWortReicher",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "292412ccd015e9a58100f87e5d8cbe96cab87bfb95bc92925c790ec4de4ac2c3",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-09T10:00:00+01:00",
+          "container": "18644376646028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-09T14:04:13.824465+00:00",
+          "media_id": "18113466650186930",
+          "published": true,
+          "media": {
+            "id": "18113466650186930",
+            "permalink": "https://www.instagram.com/reel/Dfg-KKRjO6M/",
+            "timestamp": "2026-11-09T14:04:15+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18644376646028742"
+          }
+        }
+      }
     }
   }
 }
