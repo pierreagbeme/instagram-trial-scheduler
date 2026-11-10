@@ -1344,6 +1344,105 @@
           }
         }
       }
+    },
+    "2026-11-10T10:00:00+01:00": {
+      "batch_id": "assoziationsreichtum-20261110-1000",
+      "status": "published_manual_trial",
+      "execution": "local",
+      "verified_at": "2026-11-10T09:07:17.399942+00:00",
+      "authorization": "Scheduled local release",
+      "variants": {
+        "18466477108140612-rain-becomes-blues": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-10T09:05:18.652634+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-assoziationsreichtum-20261110-1000/18466477108140612-rain-becomes-blues.mp4",
+            "caption": "Regen. Denkst du an nass oder an Blues? Ein Reiz kann ganz verschiedene Verbindungen wecken. #Assoziationsreichtum #EinWortReicher",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "7e56693ca3e39b50d1c15e089ff4fc9550073df969351bcd899f2f1981ff600a",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-10T10:00:00+01:00",
+          "container": "18644833798028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-10T09:06:34.208560+00:00",
+          "media_id": "17939795214401273",
+          "published": true,
+          "media": {
+            "id": "17939795214401273",
+            "permalink": "https://www.instagram.com/reel/Dfjiy8CigYr/",
+            "timestamp": "2026-11-10T09:06:35+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18644833798028742"
+          }
+        },
+        "18466477108140612-lighthouse-perspective": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-10T09:05:19.261547+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-assoziationsreichtum-20261110-1000/18466477108140612-lighthouse-perspective.mp4",
+            "caption": "Was hat ein Leuchtturm mit Einsamkeit zu tun? Manchmal \u00f6ffnet eine unerwartete Verbindung einen neuen Blickwinkel. #Assoziationsreichtum #Wortschatz",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "a19e09929b1f2c0abee20f8b265a99ec54938e6c31dcdee2aa6bfda9179d0100",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-10T10:00:00+01:00",
+          "container": "18644833801028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-10T09:06:42.093636+00:00",
+          "media_id": "18176728522456161",
+          "published": true,
+          "media": {
+            "id": "18176728522456161",
+            "permalink": "https://www.instagram.com/reel/Dfjiy1-nBcl/",
+            "timestamp": "2026-11-10T09:06:43+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18644833801028742"
+          }
+        },
+        "18466477108140612-ideas-and-selection": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-10T09:05:20.127066+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-assoziationsreichtum-20261110-1000/18466477108140612-ideas-and-selection.mp4",
+            "caption": "Viele Einf\u00e4lle haben und den passenden erkennen: zwei unterschiedliche F\u00e4higkeiten. #Assoziationsreichtum #EinWortReicher",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "2115f8e676c7e12e2bc45ea71d8ad4d98836f70363e3ea5d8d60e521d2d43a4e",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-10T10:00:00+01:00",
+          "container": "18644833807028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-10T09:06:50.377037+00:00",
+          "media_id": "18139735870652495",
+          "published": true,
+          "media": {
+            "id": "18139735870652495",
+            "permalink": "https://www.instagram.com/reel/Dfjiy1RkUFD/",
+            "timestamp": "2026-11-10T09:06:51+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18644833807028742"
+          }
+        }
+      }
     }
   }
 }
