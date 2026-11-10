@@ -1443,6 +1443,105 @@
           }
         }
       }
+    },
+    "2026-11-10T18:00:00+01:00": {
+      "batch_id": "praekrastination-20261110-1800",
+      "status": "published_manual_trial",
+      "execution": "local",
+      "verified_at": "2026-11-10T17:05:51.264759+00:00",
+      "authorization": "Scheduled local release",
+      "variants": {
+        "17910174876571596-bags-before-efficiency": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-10T17:03:29.056759+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-praekrastination-20261110-1800/17910174876571596-bags-before-efficiency.mp4",
+            "caption": "Alles auf einmal tragen: Ist schneller erledigt wirklich effizienter? #Pr\u00e4krastination #EinWortReicher",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "ace6486365ad2c82519646f434bd473cc606759007199486dd59fc99eaccb2ab",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-10T18:00:00+01:00",
+          "container": "18645025900028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-10T17:04:28.745137+00:00",
+          "media_id": "18111334769621655",
+          "published": true,
+          "media": {
+            "id": "18111334769621655",
+            "permalink": "https://www.instagram.com/reel/DfkZg-mIJzV/",
+            "timestamp": "2026-11-10T17:04:29+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18645025900028742"
+          }
+        },
+        "17910174876571596-message-breaks-focus": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-10T17:03:29.696004+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-praekrastination-20261110-1800/17910174876571596-message-breaks-focus.mp4",
+            "caption": "Sofort antworten, obwohl gerade etwas Wichtigeres ansteht. Kennst du das? #Pr\u00e4krastination #Wortschatz",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "e94b02bff4eb222573a7c6a97cf1e83f191c7c6f03c045782e6e825349fedfab",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-10T18:00:00+01:00",
+          "container": "18645025909028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-10T17:04:37.278340+00:00",
+          "media_id": "17913854640473522",
+          "published": true,
+          "media": {
+            "id": "17913854640473522",
+            "permalink": "https://www.instagram.com/reel/DfkZhdMAhjS/",
+            "timestamp": "2026-11-10T17:04:38+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18645025909028742"
+          }
+        },
+        "17910174876571596-checkbox-or-priority": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-10T17:03:30.437183+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-praekrastination-20261110-1800/17910174876571596-checkbox-or-priority.mp4",
+            "caption": "Ein Haken auf der Liste f\u00fchlt sich gut an. Aber war es die wichtigste Aufgabe? #Pr\u00e4krastination #EinWortReicher",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "9080d14ed481ce461f1496229858466e0da346f03d2b8b306b6b37fe1614f98d",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-10T18:00:00+01:00",
+          "container": "18645025927028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-10T17:04:45.677921+00:00",
+          "media_id": "18098513183467296",
+          "published": true,
+          "media": {
+            "id": "18098513183467296",
+            "permalink": "https://www.instagram.com/reel/DfkZh0ECRA-/",
+            "timestamp": "2026-11-10T17:04:46+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18645025927028742"
+          }
+        }
+      }
     }
   }
 }
