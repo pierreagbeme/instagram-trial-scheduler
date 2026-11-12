@@ -1542,6 +1542,105 @@
           }
         }
       }
+    },
+    "2026-11-12T18:00:00+01:00": {
+      "batch_id": "aequanimitaet-20261109-1800",
+      "status": "published_manual_trial",
+      "execution": "local",
+      "verified_at": "2026-11-12T17:02:00.522467+00:00",
+      "authorization": "Scheduled local release",
+      "variants": {
+        "18415973002158472-pause-before-reply": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-12T17:00:05.860509+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-aequanimitaet-20261109-1800/18415973002158472-pause-before-reply.mp4",
+            "caption": "Kritik trifft dich. Wie entscheidest du, was du antwortest? #\u00c4quanimit\u00e4t #EinWortReicher",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "6eac77e655379a97367d7351c8a9ad5d3b7af49b5b20e24cf46f5761f9a82e0c",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-12T18:00:00+01:00",
+          "container": "18645814876028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-12T17:01:08.559827+00:00",
+          "media_id": "17885176134652276",
+          "published": true,
+          "media": {
+            "id": "17885176134652276",
+            "permalink": "https://www.instagram.com/reel/DfpiuwEEnPT/",
+            "timestamp": "2026-11-12T17:01:11+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18645814876028742"
+          }
+        },
+        "18415973002158472-feel-without-drifting": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-12T17:00:07.018972+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-aequanimitaet-20261109-1800/18415973002158472-feel-without-drifting.mp4",
+            "caption": "Innerlich ausgeglichen zu sein bedeutet nicht, nichts zu f\u00fchlen. #\u00c4quanimit\u00e4t #Wortschatz",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "0248e7e66b931ed5abc57a515748875f74469689c93a040c5f0613ba0f03a65f",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-12T18:00:00+01:00",
+          "container": "18645814885028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-12T17:01:26.009809+00:00",
+          "media_id": "18113503406228647",
+          "published": true,
+          "media": {
+            "id": "18113503406228647",
+            "permalink": "https://www.instagram.com/reel/DfpiuKfk7Is/",
+            "timestamp": "2026-11-12T17:01:28+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18645814885028742"
+          }
+        },
+        "18415973002158472-waves-and-steering": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-12T17:00:08.300561+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-aequanimitaet-20261109-1800/18415973002158472-waves-and-steering.mp4",
+            "caption": "Gef\u00fchle wahrnehmen und trotzdem bewusst handeln: \u00c4quanimit\u00e4t. #\u00c4quanimit\u00e4t #EinWortReicher",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "0379d5d066c21dfbd9220edf6e7c5e60b1f46bb6799e335ccfb39d55987f8cad",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-12T18:00:00+01:00",
+          "container": "18645814894028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-12T17:01:42.263934+00:00",
+          "media_id": "17957916117270165",
+          "published": true,
+          "media": {
+            "id": "17957916117270165",
+            "permalink": "https://www.instagram.com/reel/DfpiuP3HGKX/",
+            "timestamp": "2026-11-12T17:01:44+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18645814894028742"
+          }
+        }
+      }
     }
   }
 }
