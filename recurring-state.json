@@ -1740,6 +1740,105 @@
           }
         }
       }
+    },
+    "2026-11-13T18:00:00+01:00": {
+      "batch_id": "signum-20261111-1800",
+      "status": "published_manual_trial",
+      "execution": "local",
+      "verified_at": "2026-11-13T17:04:58.073921+00:00",
+      "authorization": "Scheduled local release",
+      "variants": {
+        "18109676333258048-laughter-recognized": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-13T17:03:14.636699+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-signum-20261111-1800/18109676333258048-laughter-recognized.mp4",
+            "caption": "Ein Lachen im Nebenraum \u2013 und du wei\u00dft, wer es ist. #Signum #EinWortReicher\nCube im Original von @city.frames",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "cc30cf257c4e6364f5eaee9d2bacc1b11fd89be22c81c4a6eeacc1f45ae8a072",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-13T18:00:00+01:00",
+          "container": "18646145401028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-13T17:04:00.842881+00:00",
+          "media_id": "18093796208228530",
+          "published": true,
+          "media": {
+            "id": "18093796208228530",
+            "permalink": "https://www.instagram.com/reel/DfsH33PlHlR/",
+            "timestamp": "2026-11-13T17:04:03+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18646145401028742"
+          }
+        },
+        "18109676333258048-scent-and-person": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-13T17:03:15.821083+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-signum-20261111-1800/18109676333258048-scent-and-person.mp4",
+            "caption": "Ein Duft erinnert dich sofort an jemanden. Was ist das Signum dieser Person? #Signum #Wortschatz\nCube im Original von @city.frames",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "e39663d8598c036bd9d335c6353af1c1b214bc0143dc1f9d21366a7c528b2d01",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-13T18:00:00+01:00",
+          "container": "18646145503028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-13T17:04:18.772037+00:00",
+          "media_id": "17907488760351206",
+          "published": true,
+          "media": {
+            "id": "17907488760351206",
+            "permalink": "https://www.instagram.com/reel/DfsH4BRDa2E/",
+            "timestamp": "2026-11-13T17:04:20+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18646145503028742"
+          }
+        },
+        "18109676333258048-one-mark-remains": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-13T17:03:17.016844+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-signum-20261111-1800/18109676333258048-one-mark-remains.mp4",
+            "caption": "Ein unverwechselbares Merkmal kann reichen. Daf\u00fcr gibt es ein Wort. #Signum #EinWortReicher\nCube im Original von @city.frames",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "d00a7840e6fb3ff852e59ecf36f8ec1f7740b77e2ac9451dd5efd95b963da405",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-13T18:00:00+01:00",
+          "container": "18646145521028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-13T17:04:35.589736+00:00",
+          "media_id": "18202441792390847",
+          "published": true,
+          "media": {
+            "id": "18202441792390847",
+            "permalink": "https://www.instagram.com/reel/DfsH4aHgHPh/",
+            "timestamp": "2026-11-13T17:04:37+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18646145521028742"
+          }
+        }
+      }
     }
   }
 }
