@@ -1641,6 +1641,105 @@
           }
         }
       }
+    },
+    "2026-11-13T10:00:00+01:00": {
+      "batch_id": "pareidolie-20261111-1000",
+      "status": "published_manual_trial",
+      "execution": "local",
+      "verified_at": "2026-11-13T09:06:13.427632+00:00",
+      "authorization": "Scheduled local release",
+      "variants": {
+        "18385839784234170-cloud-and-car": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-13T09:04:36.091313+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-pareidolie-20261111-1000/18385839784234170-cloud-and-car.mp4",
+            "caption": "Gesichter in Wolken und Autos: Welches hast du zuletzt entdeckt? #Pareidolie #EinWortReicher",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "048bc2c43b844c96faed79dd8eb1fff27fe2a511c18da75a6c8473ce825decc8",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-13T10:00:00+01:00",
+          "container": "18646020208028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-13T09:05:25.044687+00:00",
+          "media_id": "17972416703960962",
+          "published": true,
+          "media": {
+            "id": "17972416703960962",
+            "permalink": "https://www.instagram.com/reel/DfrRG90Ajha/",
+            "timestamp": "2026-11-13T09:05:27+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18646020208028742"
+          }
+        },
+        "18385839784234170-two-dots-stay": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-13T09:04:37.080619+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-pareidolie-20261111-1000/18385839784234170-two-dots-stay.mp4",
+            "caption": "Zwei Punkte und eine Linie. Und schon sehen wir ein Gesicht. #Pareidolie #Wortschatz",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "80b5c4ec9264bf2441553756267a13a344d9b12ad2ea89487715764c4de289f5",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-13T10:00:00+01:00",
+          "container": "18646020214028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-13T09:05:40.051428+00:00",
+          "media_id": "17882768889631414",
+          "published": true,
+          "media": {
+            "id": "17882768889631414",
+            "permalink": "https://www.instagram.com/reel/DfrRGW2ES0M/",
+            "timestamp": "2026-11-13T09:05:42+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18646020214028742"
+          }
+        },
+        "18385839784234170-pattern-becomes-face": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-13T09:04:38.331782+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-pareidolie-20261111-1000/18385839784234170-pattern-becomes-face.mp4",
+            "caption": "Ein vertrautes Gesicht in einem zuf\u00e4lligen Muster. Daf\u00fcr gibt es ein Wort. #Pareidolie #EinWortReicher",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "0db9114d08847c10d510449996546857877045f23d65b5e7c208121ba86f538d",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-13T10:00:00+01:00",
+          "container": "18646020220028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-13T09:05:56.221329+00:00",
+          "media_id": "17955830547279305",
+          "published": true,
+          "media": {
+            "id": "17955830547279305",
+            "permalink": "https://www.instagram.com/reel/DfrRGZ0lB4L/",
+            "timestamp": "2026-11-13T09:05:58+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18646020220028742"
+          }
+        }
+      }
     }
   }
 }
