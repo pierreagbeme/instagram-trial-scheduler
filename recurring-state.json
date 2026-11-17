@@ -1839,6 +1839,105 @@
           }
         }
       }
+    },
+    "2026-11-17T10:16:03.621144+00:00": {
+      "batch_id": "ambiguitaet-20261117-user",
+      "status": "published_manual_trial",
+      "execution": "local",
+      "verified_at": "2026-11-17T10:19:48.073591+00:00",
+      "authorization": "Scheduled local release",
+      "variants": {
+        "17914870809525762-work-and-grey": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-17T10:16:38.351503+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-ambiguitaet-20261117-user/17914870809525762-work-and-grey.mp4",
+            "caption": "Arbeit lieben und trotzdem ersch\u00f6pft sein: Beides darf wahr sein. #Ambiguit\u00e4tstoleranz #EinWortReicher",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "881134a1bafb96d417be37eedd72b6cfeb05baaf432185d37017d87afdf32396",
+          "authorization": "Explicit user request 2026-11-17: Ambiguitaetstoleranz batch now, outside schedule",
+          "publish_at": "2026-11-17T10:16:03.621144+00:00",
+          "container": "18647544394028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-17T10:18:41.538949+00:00",
+          "media_id": "17990329037885262",
+          "published": true,
+          "media": {
+            "id": "17990329037885262",
+            "permalink": "https://www.instagram.com/reel/Df1snNUEnkA/",
+            "timestamp": "2026-11-17T10:19:01+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18647544394028742"
+          }
+        },
+        "17914870809525762-closeness-and-space": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-17T10:16:39.917828+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-ambiguitaet-20261117-user/17914870809525762-closeness-and-space.mp4",
+            "caption": "Jemanden m\u00f6gen und trotzdem Abstand brauchen. Kennst du dieses Gef\u00fchl? #Ambiguit\u00e4tstoleranz #Wortschatz",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "cc656eab4f90e6de859a3cc7212009043c2f92bb8f15b57594b6609156edc987",
+          "authorization": "Explicit user request 2026-11-17: Ambiguitaetstoleranz batch now, outside schedule",
+          "publish_at": "2026-11-17T10:16:03.621144+00:00",
+          "container": "18647544400028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-17T10:19:05.978543+00:00",
+          "media_id": "18119763650022917",
+          "published": true,
+          "media": {
+            "id": "18119763650022917",
+            "permalink": "https://www.instagram.com/reel/Df1shhbmXLs/",
+            "timestamp": "2026-11-17T10:19:08+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18647544400028742"
+          }
+        },
+        "17914870809525762-hold-two-truths-film": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-17T10:16:40.782777+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-ambiguitaet-20261117-user/17914870809525762-hold-two-truths-film.mp4",
+            "caption": "Zweifel haben und trotzdem losgehen. Widerspr\u00fcche aushalten, statt sofort zu urteilen. #Ambiguit\u00e4tstoleranz #EinWortReicher",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "b4d0807cab6a1827772a8f5b1d9a85b08136d005fc33dc40d70fa41b19717500",
+          "authorization": "Explicit user request 2026-11-17: Ambiguitaetstoleranz batch now, outside schedule",
+          "publish_at": "2026-11-17T10:16:03.621144+00:00",
+          "container": "18647544409028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-17T10:19:22.975713+00:00",
+          "media_id": "18341979550272386",
+          "published": true,
+          "media": {
+            "id": "18341979550272386",
+            "permalink": "https://www.instagram.com/reel/Df1shnMAD_f/",
+            "timestamp": "2026-11-17T10:19:41+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18647544409028742"
+          }
+        }
+      }
     }
   }
 }
