@@ -1938,6 +1938,105 @@
           }
         }
       }
+    },
+    "2026-11-18T10:00:00+01:00": {
+      "batch_id": "affordanz-20261118-1000",
+      "status": "published_manual_trial",
+      "execution": "local",
+      "verified_at": "2026-11-18T09:08:19.429004+00:00",
+      "authorization": "Scheduled local release",
+      "variants": {
+        "18133831048770967-handle-knows": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-18T09:06:32.638633+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-affordanz-20261118-1000/18133831048770967-handle-knows.mp4",
+            "caption": "Warum greifst du bei einer Tasse intuitiv zum Henkel? Daf\u00fcr gibt es ein Wort: Affordanz. #Affordanz #EinWortReicher",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "6b378f28e5a19713cbb42b2272baa44d450b96224d2d898829a9255d9e40964f",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-18T10:00:00+01:00",
+          "container": "18647824786028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-18T09:07:48.767983+00:00",
+          "media_id": "18122164718092592",
+          "published": true,
+          "media": {
+            "id": "18122164718092592",
+            "permalink": "https://www.instagram.com/reel/Df4JS5vj0lw/",
+            "timestamp": "2026-11-18T09:07:49+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18647824786028742"
+          }
+        },
+        "18133831048770967-when-design-fails": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-18T09:06:33.825404+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-affordanz-20261118-1000/18133831048770967-when-design-fails.mp4",
+            "caption": "Gute Gestaltung f\u00e4llt oft erst auf, wenn sie fehlt. Was macht deinen Alltag einfacher? #Affordanz #Wortschatz",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "57ad380c18fbe905bcd3f6bacfea8e5e83c36404f6fdee04beb61c6e50a4fa81",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-18T10:00:00+01:00",
+          "container": "18647824789028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-18T09:07:56.255700+00:00",
+          "media_id": "18058858535606529",
+          "published": true,
+          "media": {
+            "id": "18058858535606529",
+            "permalink": "https://www.instagram.com/reel/Df4JS-diXtp/",
+            "timestamp": "2026-11-18T09:07:57+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18647824789028742"
+          }
+        },
+        "18133831048770967-designed-to-help-film": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-18T09:06:34.746534+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-affordanz-20261118-1000/18133831048770967-designed-to-help-film.mp4",
+            "caption": "Gute Hilfe erledigt nicht alles f\u00fcr dich. Sie hilft dir, selbst zurechtzukommen. #Affordanz #EinWortReicher",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "a837072b240f331bfee5b24b1830c784bfce7d70afe02d979ee61a8c0915c780",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-18T10:00:00+01:00",
+          "container": "18647824792028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-18T09:08:03.503821+00:00",
+          "media_id": "18103428185185685",
+          "published": true,
+          "media": {
+            "id": "18103428185185685",
+            "permalink": "https://www.instagram.com/reel/Df4JTGAHPYl/",
+            "timestamp": "2026-11-18T09:08:04+0000"
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18647824792028742"
+          }
+        }
+      }
     }
   }
 }
