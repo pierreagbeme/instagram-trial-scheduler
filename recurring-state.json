@@ -2037,6 +2037,111 @@
           }
         }
       }
+    },
+    "2026-11-21T13:58:57.860705+00:00": {
+      "batch_id": "belohnungsaufschub-20261121-user",
+      "status": "published_manual_trial",
+      "execution": "local",
+      "verified_at": "2026-11-21T14:02:19.804760+00:00",
+      "authorization": "Explicit immediate local upload requested on 2026-11-21",
+      "variants": {
+        "18127093486940531-marshmallow-und-sparen": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-21T14:01:00.377606+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-belohnungsaufschub-20261121-user/belohnungsaufschub-marshmallow-und-sparen.mp4",
+            "caption": "Kommentiere \"Wort\" und ich schick dir Meine App damit du mehr so w\u00f6rter lernen kannst.",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "d47ae1542c076fdfe12fd48b65fc7db0aba90035a9b21abf9e0d86365300f837",
+          "authorization": "Explicit immediate local upload requested on 2026-11-21",
+          "publish_at": "2026-11-21T13:58:57.860705+00:00",
+          "container": "18648723160028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-21T14:01:36.288591+00:00",
+          "media_id": "18084890054404396",
+          "published": true,
+          "media": {
+            "id": "18084890054404396",
+            "permalink": "https://www.instagram.com/reel/DgAZYdUiFPo/",
+            "timestamp": "2026-11-21T14:01:38+0000",
+            "caption": "Kommentiere \"Wort\" und ich schick dir Meine App damit du mehr so w\u00f6rter lernen kannst.",
+            "is_shared_to_feed": false
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18648723160028742"
+          }
+        },
+        "18127093486940531-vertrauen-im-experiment": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-21T14:01:01.979126+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-belohnungsaufschub-20261121-user/belohnungsaufschub-vertrauen-im-experiment.mp4",
+            "caption": "Kommentiere \"Wort\" und ich schick dir Meine App damit du mehr so w\u00f6rter lernen kannst.",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "d0314c746627b3abb198c243e4ed77338ae3915ca57f282bad665c478d532617",
+          "authorization": "Explicit immediate local upload requested on 2026-11-21",
+          "publish_at": "2026-11-21T13:58:57.860705+00:00",
+          "container": "18648723166028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-21T14:01:50.750323+00:00",
+          "media_id": "18427929292153806",
+          "published": true,
+          "media": {
+            "id": "18427929292153806",
+            "permalink": "https://www.instagram.com/reel/DgAZYcZFBBZ/",
+            "timestamp": "2026-11-21T14:01:52+0000",
+            "caption": "Kommentiere \"Wort\" und ich schick dir Meine App damit du mehr so w\u00f6rter lernen kannst.",
+            "is_shared_to_feed": false
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18648723166028742"
+          }
+        },
+        "18127093486940531-heute-oder-spaeter": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-21T14:01:03.263080+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-belohnungsaufschub-20261121-user/belohnungsaufschub-heute-oder-spaeter.mp4",
+            "caption": "Kommentiere \"Wort\" und ich schick dir Meine App damit du mehr so w\u00f6rter lernen kannst.",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "9c6e41f730b0941ec95b94a8950feed84c19b9e680d96bbee5d4fa004601f239",
+          "authorization": "Explicit immediate local upload requested on 2026-11-21",
+          "publish_at": "2026-11-21T13:58:57.860705+00:00",
+          "container": "18648723169028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-21T14:02:04.577348+00:00",
+          "media_id": "18049734563827593",
+          "published": true,
+          "media": {
+            "id": "18049734563827593",
+            "permalink": "https://www.instagram.com/reel/DgAZYe6EbmF/",
+            "timestamp": "2026-11-21T14:02:06+0000",
+            "caption": "Kommentiere \"Wort\" und ich schick dir Meine App damit du mehr so w\u00f6rter lernen kannst.",
+            "is_shared_to_feed": false
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18648723169028742"
+          }
+        }
+      }
     }
   }
 }
