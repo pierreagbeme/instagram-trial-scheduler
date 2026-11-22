@@ -2247,6 +2247,111 @@
           }
         }
       }
+    },
+    "2026-11-22T18:00:00+01:00": {
+      "batch_id": "beziehungen-20261122-1800",
+      "status": "published_manual_trial",
+      "execution": "local",
+      "verified_at": "2026-11-22T17:10:44.407222+00:00",
+      "authorization": "Scheduled local release",
+      "variants": {
+        "18010469504766971-reflexion-ist-lernbar": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-22T17:08:11.823817+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-beziehungen-20261122-1800/18010469504766971-reflexion-ist-lernbar.mp4",
+            "caption": "Kommentiere \"Wort\" und ich schick dir Meine App damit du mehr so w\u00f6rter lernen kannst.",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "67d489d88937068c16015114f76f7ea051fa8cf9902efae252ce0fd47bad2df9",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-22T18:00:00+01:00",
+          "container": "18649120639028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-22T17:09:48.455853+00:00",
+          "media_id": "18109814699213546",
+          "published": true,
+          "media": {
+            "id": "18109814699213546",
+            "permalink": "https://www.instagram.com/reel/DgDTswKDq9I/",
+            "timestamp": "2026-11-22T17:09:50+0000",
+            "caption": "Kommentiere \"Wort\" und ich schick dir Meine App damit du mehr so w\u00f6rter lernen kannst.",
+            "is_shared_to_feed": false
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18649120639028742"
+          }
+        },
+        "18010469504766971-hilfe-wie-in-der-werkstatt": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-22T17:08:12.803969+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-beziehungen-20261122-1800/18010469504766971-hilfe-wie-in-der-werkstatt.mp4",
+            "caption": "Kommentiere \"Wort\" und ich schick dir Meine App damit du mehr so w\u00f6rter lernen kannst.",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "b3fa0790279a7ba9c3a9e9c4b7115550f562c9576dbe2705d577cf3e4249e021",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-22T18:00:00+01:00",
+          "container": "18649120645028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-22T17:10:07.314661+00:00",
+          "media_id": "18101897333098513",
+          "published": true,
+          "media": {
+            "id": "18101897333098513",
+            "permalink": "https://www.instagram.com/reel/DgDTtN2DOol/",
+            "timestamp": "2026-11-22T17:10:09+0000",
+            "caption": "Kommentiere \"Wort\" und ich schick dir Meine App damit du mehr so w\u00f6rter lernen kannst.",
+            "is_shared_to_feed": false
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18649120645028742"
+          }
+        },
+        "18010469504766971-drei-schritte-fuer-beziehungen": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-22T17:08:14.040171+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-beziehungen-20261122-1800/18010469504766971-drei-schritte-fuer-beziehungen.mp4",
+            "caption": "Kommentiere \"Wort\" und ich schick dir Meine App damit du mehr so w\u00f6rter lernen kannst.",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "681e9f82677627e1f6259f2b971b8b506e1e3af58dae2d55d44c386da56a570d",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-22T18:00:00+01:00",
+          "container": "18649120657028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-22T17:10:28.111864+00:00",
+          "media_id": "18351565936286318",
+          "published": true,
+          "media": {
+            "id": "18351565936286318",
+            "permalink": "https://www.instagram.com/reel/DgDTmUpFIHL/",
+            "timestamp": "2026-11-22T17:10:30+0000",
+            "caption": "Kommentiere \"Wort\" und ich schick dir Meine App damit du mehr so w\u00f6rter lernen kannst.",
+            "is_shared_to_feed": false
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18649120657028742"
+          }
+        }
+      }
     }
   }
 }
