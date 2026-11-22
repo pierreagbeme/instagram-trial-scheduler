@@ -2142,6 +2142,111 @@
           }
         }
       }
+    },
+    "2026-11-22T10:00:00+01:00": {
+      "batch_id": "wortreich-origin-20261122-1000",
+      "status": "published_manual_trial",
+      "execution": "local",
+      "verified_at": "2026-11-22T09:08:48.305017+00:00",
+      "authorization": "Scheduled local release",
+      "variants": {
+        "17978971400938600-words-unlock-understanding": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-22T09:06:48.766062+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-wortreich-origin-20261122-1000/17978971400938600-words-unlock-understanding.mp4",
+            "caption": "Kommentiere \"Wort\" und ich schick dir Meine App damit du mehr so w\u00f6rter lernen kannst.",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "09f64719107afc1704a55cb147f33274593c89943becf48847f4798344adbdc2",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-22T10:00:00+01:00",
+          "container": "18648989497028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-22T09:08:06.426772+00:00",
+          "media_id": "18133216234835385",
+          "published": true,
+          "media": {
+            "id": "18133216234835385",
+            "permalink": "https://www.instagram.com/reel/DgCcl6_GY1B/",
+            "timestamp": "2026-11-22T09:08:08+0000",
+            "caption": "Kommentiere \"Wort\" und ich schick dir Meine App damit du mehr so w\u00f6rter lernen kannst.",
+            "is_shared_to_feed": false
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18648989497028742"
+          }
+        },
+        "17978971400938600-from-silence-to-expression": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-22T09:06:49.850335+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-wortreich-origin-20261122-1000/17978971400938600-from-silence-to-expression.mp4",
+            "caption": "Kommentiere \"Wort\" und ich schick dir Meine App damit du mehr so w\u00f6rter lernen kannst.",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "f2168f0f444248fcbb1a13ef51ed4f7715eb6399fbb953a4478da919d7ee6190",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-22T10:00:00+01:00",
+          "container": "18648989518028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-22T09:08:20.038315+00:00",
+          "media_id": "18185369053425629",
+          "published": true,
+          "media": {
+            "id": "18185369053425629",
+            "permalink": "https://www.instagram.com/reel/DgCcj7bDe7F/",
+            "timestamp": "2026-11-22T09:08:22+0000",
+            "caption": "Kommentiere \"Wort\" und ich schick dir Meine App damit du mehr so w\u00f6rter lernen kannst.",
+            "is_shared_to_feed": false
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18648989518028742"
+          }
+        },
+        "17978971400938600-notebook-to-shared-learning": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-22T09:06:50.797778+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-wortreich-origin-20261122-1000/17978971400938600-notebook-to-shared-learning.mp4",
+            "caption": "Kommentiere \"Wort\" und ich schick dir Meine App damit du mehr so w\u00f6rter lernen kannst.",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "6ef936cba5d900a9ec029b69eca3bd0dbd98282e15cb10b47dbf195375bdb8fd",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-22T10:00:00+01:00",
+          "container": "18648989536028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-22T09:08:32.456535+00:00",
+          "media_id": "18134771971763708",
+          "published": true,
+          "media": {
+            "id": "18134771971763708",
+            "permalink": "https://www.instagram.com/reel/DgCch7LjYQm/",
+            "timestamp": "2026-11-22T09:08:34+0000",
+            "caption": "Kommentiere \"Wort\" und ich schick dir Meine App damit du mehr so w\u00f6rter lernen kannst.",
+            "is_shared_to_feed": false
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18648989536028742"
+          }
+        }
+      }
     }
   }
 }
