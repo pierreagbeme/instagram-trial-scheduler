@@ -2352,6 +2352,111 @@
           }
         }
       }
+    },
+    "2026-11-23T10:00:00+01:00": {
+      "batch_id": "generationen-20261123-1000",
+      "status": "published_manual_trial",
+      "execution": "local",
+      "verified_at": "2026-11-23T09:04:57.896875+00:00",
+      "authorization": "Scheduled local release",
+      "variants": {
+        "18010403771761401-zwei-generationen": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-23T09:03:01.974820+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-generationen-20261123-1000/18010403771761401-zwei-generationen.mp4",
+            "caption": "Kommentiere \"Wort\" und ich schick dir Meine App damit du mehr so w\u00f6rter lernen kannst.",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "bba6f2af42ff1d6b88cd9a69bbd4d7c35557f2dd1ea325a0f361b2cf9d12afe3",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-23T10:00:00+01:00",
+          "container": "18649314304028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-23T09:03:59.446412+00:00",
+          "media_id": "18122404499072512",
+          "published": true,
+          "media": {
+            "id": "18122404499072512",
+            "permalink": "https://www.instagram.com/reel/DgFA3ienCBO/",
+            "timestamp": "2026-11-23T09:04:18+0000",
+            "caption": "Kommentiere \"Wort\" und ich schick dir Meine App damit du mehr so w\u00f6rter lernen kannst.",
+            "is_shared_to_feed": false
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18649314304028742"
+          }
+        },
+        "18010403771761401-kleine-entscheidungen": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-23T09:03:03.288472+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-generationen-20261123-1000/18010403771761401-kleine-entscheidungen.mp4",
+            "caption": "Kommentiere \"Wort\" und ich schick dir Meine App damit du mehr so w\u00f6rter lernen kannst.",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "f40ec13d6fdbce464aace236d817a6fe11790cc550a6499c384f2236c5c3100f",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-23T10:00:00+01:00",
+          "container": "18649314307028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-23T09:04:23.426328+00:00",
+          "media_id": "18115429508164530",
+          "published": true,
+          "media": {
+            "id": "18115429508164530",
+            "permalink": "https://www.instagram.com/reel/DgFA5L8nJXj/",
+            "timestamp": "2026-11-23T09:04:25+0000",
+            "caption": "Kommentiere \"Wort\" und ich schick dir Meine App damit du mehr so w\u00f6rter lernen kannst.",
+            "is_shared_to_feed": false
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18649314307028742"
+          }
+        },
+        "18010403771761401-der-weg-nach-vorn": {
+          "create_attempted": true,
+          "created_attempt_at": "2026-11-23T09:03:04.532420+00:00",
+          "request": {
+            "media_type": "REELS",
+            "video_url": "https://github.com/pierreagbeme/instagram-trial-scheduler/releases/download/batch-generationen-20261123-1000/18010403771761401-der-weg-nach-vorn.mp4",
+            "caption": "Kommentiere \"Wort\" und ich schick dir Meine App damit du mehr so w\u00f6rter lernen kannst.",
+            "share_to_feed": false,
+            "trial_params": {
+              "graduation_strategy": "MANUAL"
+            }
+          },
+          "sha256": "b3608241256cc2819949cfd084bfec2bb9c8846595a239b13ca6d763373d5552",
+          "authorization": "Autonomous reviewed local scheduled batch",
+          "publish_at": "2026-11-23T10:00:00+01:00",
+          "container": "18649314310028742",
+          "publish_attempted": true,
+          "publish_attempt_at": "2026-11-23T09:04:40.584965+00:00",
+          "media_id": "17925072660450583",
+          "published": true,
+          "media": {
+            "id": "17925072660450583",
+            "permalink": "https://www.instagram.com/reel/DgFA38Bmj74/",
+            "timestamp": "2026-11-23T09:04:42+0000",
+            "caption": "Kommentiere \"Wort\" und ich schick dir Meine App damit du mehr so w\u00f6rter lernen kannst.",
+            "is_shared_to_feed": false
+          },
+          "verified_status": {
+            "status_code": "PUBLISHED",
+            "id": "18649314310028742"
+          }
+        }
+      }
     }
   }
 }
